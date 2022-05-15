@@ -12,10 +12,10 @@
 html{
     overflow-x:hidden;
 }
-h1, h2, h3, h4{
+h1, h2, h3, h4, .title{
     font-family: "Lexend", sans-serif;
 }
-p, li, a{
+p, li, a, .text{
     font-family: "Poppins", sans-serif;
 }
 a{
@@ -40,10 +40,10 @@ li{
     transition:0.2s
 }
 header{
-    background-color:#ff4d4d;
+    background-color:var(--vermelho);
     height:70px;
     padding:5px;
-    padding:0 6%;
+    padding:0 2vw;
 }
 #div-logo{
     width:17%;
@@ -69,7 +69,7 @@ nav{
 
 .nav{
     width:63%;
-    font-size:16px;
+    font-size:1em;
     font-weight:300;
 }
 .nav-link:hover{
@@ -92,7 +92,108 @@ nav{
     align-items:center;
     justify-content:space-between;
     font-weight:bold;
-    font-size:15px;
+    font-size:1em;
+}
+#login ul li{
+    margin: 0 4px;
+}
+
+@media(max-width:800px){
+    header{
+        height:60px;
+    }
+    .nav-icon{ 
+        width:10%;
+        height:100%;
+        display:flex;
+        
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .line{
+        background-color:white;
+        height:5%;
+        width:100%;
+        margin:2px 0;
+        border-radius:8px;
+    }
+    #div-logo{
+        width:30%;
+    }
+    .logo{
+        background-size: 90px;
+    }
+    .nav{
+        width:25%;
+    }
+    .nav ul{
+        align-items:flex-start;
+        flex-direction:column;
+        position:absolute;
+        top:75px;
+        left:5%;
+        line-height:2.8em;
+        padding:4em 0 0 5%;
+        width:90%;
+        opacity:0.5;
+        background-color:black;
+        border-radius:8px;
+    }
+    .nav ul li{
+        margin:0 0;
+    }
+    #login ul li:first-of-type{
+        position:absolute;
+        top:75px;
+        background-color: var(--vermelho);
+        color:white;
+        border-radius:8px;
+        width:85%;
+        line-height:2.8em;
+        left: 7%;
+        padding: 5px 8px;
+        z-index:2;
+        font-weight:normal;
+
+       
+    }
+}
+
+@media (max-width:400px){
+    header{
+        height:50px;
+    }
+    .nav-icon{
+        width:10%;
+    }
+    #div-logo{
+        width:20%;
+    }
+    .logo{
+        background-size:70px;
+    }
+    .nav{
+        width:50%;
+    }
+    .nav ul{
+        width:100%;
+        left:0;
+    }
+    #login ul{
+        justify-content:flex-end;
+        display:grid;
+        font-weight:400;
+    }
+    #login ul li:first-of-type{
+        width:90%;
+        left:5%;
+    }
+    .btn{
+        font-size:12px;
+        font-weight:bold;
+        padding: 8px 20px;
+    }
 }
 
 
