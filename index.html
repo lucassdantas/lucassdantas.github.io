@@ -8,6 +8,7 @@
         <!--CSS-->
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/sessoes.css">
+        <link rel="stylesheet" href="./css/buttons.css">
     </head>
     <body>
         <header>
@@ -33,7 +34,7 @@
                         <li id="login_li" class="escondido">
                             <a href="#" class="nav-link">Login</a>
                         </li>
-                        <li class="btn white"><a href="#">Assine</a></li>
+                        <li class="btn_header"><a href="#">Assine</a></li>
                     </ul>
                 </div>
                 <div class="cell_fundo">
@@ -42,19 +43,26 @@
             <div id="fundo-menu active"></div>
         </header>
         <main>
-            <section id="principal">
-                <div id="livros-div"><div id="livros"></div></div>
-                <div class="conjunto">
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div><span>BOX DE MAIO | BOX S3 </span></div>
-
+            <div id="principal">
+                <div id="livros-div">
+                    <img src="https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-499e55a77fe0a3fe90f563d5dfcde3c6.webp" alt="Livros img">
                 </div>
-                <h2>o soldado que criou um exército de Cristo</h2>
-                <p>Conheça a história de Santo Inácio de Loyola, o fundador da Companhia de Jesus, que deixou de comandar batalhões militares para levantar um exército de católicos por todo o mundo</p>
-                <button>Quero conhecer Santo Inácio</button>
-                <p>Box completo + frete grátis</p>
+                <div class="low-left">
+                    <div id="conjunto-div">
+                        <div class="conjunto">
+                            <div>
+                                <img class="box-icon" src="https://img2.gratispng.com/20180810/vqu/kisspng-computer-icons-clip-art-box-scalable-vector-graphi-box-closed-svg-png-icon-free-download-65594-o-5b6e1442784941.9136108215339408024927.jpg" alt="Livros img">
+                            </div>
+                            <div id="conjunto-texto">
+                                <span>BOX DE MAIO | BOX S3 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>O soldado que criou um exército de Cristo</h2>
+                    <p class="title">Conheça a história de Santo Inácio de Loyola, o fundador da Companhia de Jesus, que deixou de comandar batalhões militares para levantar um exército de católicos por todo o mundo</p>
+                    <p id="botao" class="btn orange title">Quero conhecer Santo Inácio</p>
+                    <p>Box completo + frete grátis</p>
+                </div>
             </section>
         </main>
         <script src="script.js"></script>
