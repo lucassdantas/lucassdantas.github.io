@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="nav-icon">
-                <div id="line01" class="line"> </div>
-                <div id="line02" class="line"> </div>
-                <div id="line03" class="line"> </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sobre</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/sessoes.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="cellButton" class="nav-icon">
+                    <div id="line01" class="line"> </div>
+                    <div id="line02" class="line"> </div>
+                    <div id="line03" class="line"> </div>
+                </div>
+                <div id="div-logo">
+                    <div class="logo"></div>
+                </div>
+                <div class="nav">
+                    <ul id="nav_menu" class="nav-li escondido">
+                        <li><a href="#" class="nav-link">Edições anteriores</a></li>
+                        <li><a href="#" class="nav-link">Como funciona</a></li>
+                        <li><a href="#" class="nav-link">Dúvidas frequentes</a></li>
+                        <li><a href="#" class="nav-link">Blog</a></li>
+                    </ul>
+                </div>
+            <div id="login">
+                    <ul class="assine">
+                        <li id="login_li" class="escondido"><a href="#" class="nav-link">Login</a></li>
+                        <li class="btn white"><a href="#">Assine</a></li>
+                    </ul>
             </div>
-            <div id="div-logo">
-                <div class="logo"></div>
-            </div>
-            <div class="nav">
-                <ul class="nav-li">
-                    <li><a href="#" class="nav-link">Edições anteriores</a></li>
-                    <li><a href="#" class="nav-link">Como funciona</a></li>
-                    <li><a href="#" class="nav-link">Dúvidas frequentes</a></li>
-                    <li><a href="#" class="nav-link">Blog</a></li>
-                </ul>
-            </div>
-           <div id="login">
-                <ul class="assine">
-                    <li><a href="#" class="nav-link">Login</a></li>
-                    <li class="btn white "><a href="#">Assine</a></li>
-                </ul>
-           </div>
-           
-        </nav>
-    </header>
-</body>
+            
+            </nav>
+        </header>
+        <main>
+            <section id="principal">
+                <img id="livros" src="" alt="">
+                <div class="conjunto">
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div><span>BOX DE MAIO</span></div>
+                    <div><span>BOX 53</span></div>
+                </div>
+                <h2>o soldado que criou um exército de Cristo</h2>
+                <p>Conheça a história de Santo Inácio de Loyola, o fundador da Companhia de Jesus, que deixou de comandar batalhões militares para levantar um exército de católicos por todo o mundo</p>
+                <button>Quero conhecer Santo Inácio</button>
+                <p>Box completo + frete grátis</p>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>

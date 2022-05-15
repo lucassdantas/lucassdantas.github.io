@@ -1,0 +1,17 @@
+#principal{
+    background-image: url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-192bb591f7d989b538f87b8cb98fdcb6.webp");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50%;
+    height:800px;
+}
+.conjunto {
+    display:flex;
+    flex-direction:row;
+    background-color:#557065;
+    border:2px solid #BBC6C1;
+    border-radius:8px;
+    padding:5px;
+
+
+}
