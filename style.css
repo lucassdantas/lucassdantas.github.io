@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+:root{
+    --vermelho:#ff4d4d;
+}
 *{
     padding:0;
     margin:0;
@@ -18,29 +20,41 @@ p, li, a{
 }
 a{
     text-decoration:none;
+    color:inherit;
 }
 li{
     list-style:none;
 }
+.btn{
+    background-color: white;
+    color:var(--vermelho);
+    border-radius:8px;
+    padding:8px 35px;
+    text-transform:uppercase;
+    transition:0.2;
+    
+}
+.btn:hover{
+    background-color:#00B55A;
+    color:white;
+    transition:0.2s
+}
 header{
     background-color:#ff4d4d;
     height:70px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
     padding:5px;
-    padding:0 8%;
-
+    padding:0 6%;
 }
 #div-logo{
-    width:110px;
+    width:17%;
+    min-width:120px;
     height:90px;
 }
 .logo{
     background-image: url(https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-0689f3cc945304ef89348ed4409860bd.svg);
     background-position:contain;
     background-repeat:no-repeat;
-    background-size:100px;
+    background-size:110px;
     background-position:center;
     width:100%;
     height:100%;
@@ -48,30 +62,39 @@ header{
 nav{
     color:white;
     display:flex;
-    justify-content:space-between;
     align-items:center;
     height:100%;
+    width:100%;
 }
 
 .nav{
+    width:63%;
     font-size:16px;
     font-weight:300;
-    margin:0 0 0 48px;
+}
+.nav-link:hover{
+    text-decoration:underline;
 }
 .nav ul{
     display:flex;
     align-items:center;
-    margin-left:9px;
-
 }
 .nav ul li{
-    margin:0 09px;
+    text-decoration:none;
+    margin:0 9px;
 }
 
-.login{
-    
-    display:flex;
-    
-    
+#login{
+    width:15%;
 }
+#login ul{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-weight:bold;
+    font-size:15px;
+}
+
+
+
 
