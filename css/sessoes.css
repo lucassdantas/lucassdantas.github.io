@@ -4,6 +4,18 @@
     background-size:cover;
     background-position:50%;
     height:800px;
+    color:white;
+}
+#livros-div{
+    width:20px;
+    height:20px;
+}
+#livros{
+    background-image:url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-499e55a77fe0a3fe90f563d5dfcde3c6.webp");
+    background-size: 360px 260px;
+    background-repeat:no-repeat;
+    background-position:0px;
+    z-index:9;
 }
 .conjunto {
     display:flex;
