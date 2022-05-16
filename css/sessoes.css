@@ -17,7 +17,7 @@
     padding:50px 0 0 0;
 }
 #livros-div img{
-    width:100%;
+    width:60%;
 }
 #conjunto-div{
     width:100%;
@@ -34,19 +34,21 @@
     background-color:#557065;
     border:2px solid #BBC6C1;
     border-radius:8px;
-    
-    width:90%;
-    font-size:0.7em;
+    height:50px;
+    width:60%;
+
+    font-size:0.8em;
     font-weight:bold;
-    margin: 30px 0;
+    margin: 60px 0;
 }
 .conjunto div:first-child{
-    width:40px;
-    height:40px;
+    width:50px;
+    height:100%;
     background-color: white;
     padding:6px;
-    
-    
+}
+.conjunto span{
+    margin: 0 5px;
 }
 .box-icon{
     width:100%;
@@ -59,16 +61,43 @@
 }
 
 #principal div h2{
-    font-size:2.7em;
+    font-size:3em;
     margin:0 0 50px 0 ;
 }
 #principal div p{
-    font-size:1em;
+    font-size:1.5em;
     font-weight:bold;
     margin:0 0 40px 0;
-
+}
+#principal div #botao{
+    font-size:1.5em;
+    width:80%;
+    margin-left:10%;
 }
 /*SECÇÃO 02*/
+#nossos_numeros{
+    padding:7px 0;
+}
+#s2_fundo{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    padding:5% 0%;
+}
+#s2_fundo h2{
+    font-size:3em;
+    font-weight:200px;
+}
+.red_line{
+    width:90%;
+    height:1px;
+    margin:30px 0;
+
+    
+}
 @media (min-width:1024px){
     #principal{
         flex-direction:row-reverse;
@@ -80,20 +109,29 @@
 
     #conjunto-div{
         justify-content: flex-start;
+        width:600px;
+    }
+    .conjunto span{
+        font-size:1.5em;
+        font-weight:400px;
     }
     .low-left h2, .low-left p:nth-child(3){
         text-align:left;
     }
-
+ 
     #livros-div{
         width:100%;
         text-align:center;
         padding:0% 0% 4% 4%;
     }
+
     #livros-div img{
         width:80%;
         max-width:900px;
         
+    }
+    #principal div h2{
+        font-size:2.5em;
     }
   
 }

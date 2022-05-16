@@ -1,11 +1,14 @@
 .c_red{
     color:#FF4D4D
 }
+.c_white{
+    color:white;
+}
 .red{
     background-color: #FF4D4D;
 }
 .black{
-    background-color:black;
+    background-color:#212121;
 }
 .orange{
     background-color:rgb(255,107,0);
