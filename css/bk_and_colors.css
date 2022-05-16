@@ -1,0 +1,28 @@
+.c_red{
+    color:#FF4D4D
+}
+.red{
+    background-color: #FF4D4D;
+}
+.black{
+    background-color:black;
+}
+.orange{
+    background-color:rgb(255,107,0);
+}
+.orange:hover{
+    background-color: #C95400;
+
+}
+.green{
+   background-color:rgb(0,190,92);
+}
+
+.green:hover{
+    background-color:#006D35;
+}
+
+.white{
+    background-color: white;
+}
+
