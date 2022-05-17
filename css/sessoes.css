@@ -127,6 +127,54 @@
         text-align:center;
         font-size:1.9em;
     }
+
+/*SECÇÃO 04 e 05*/
+#how, .section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 2% 24%;
+    
+}
+.section div{
+    text-align:center;
+}
+.section .title_div{
+    margin:0 0 20px 0;
+}
+.section .col{
+    padding:0 10%;
+    margin:10px 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.section h5{
+    font-size:1.5em;
+    font-weight:500;
+    margin-top:5px;
+}
+.section img{
+    width:80px;
+    margin:0 0 10px 0;
+}
+.section .img_subtitle{
+    font-size:1.3em;
+    padding:0 12%;
+    font-weight:500;
+    color:#424247;
+    margin:0 0 5px 0;
+}
+.section p{
+    font-size:1em;
+}
+.section .div_button{
+    margin:20px 0 20px;
+}
+
+/*SECÇÃO 05*/
 /*Responsive*/
 @media (min-width:1024px){
     #principal{

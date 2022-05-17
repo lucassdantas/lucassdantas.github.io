@@ -22,6 +22,9 @@ a{
     text-decoration:none;
     color:inherit;
 }
+a:hover{
+    color:inherit;
+}
 li{
     list-style:none;
 }
@@ -42,6 +45,7 @@ li{
     transition:0.2;
     
 }
+
 .btn_header:hover{
     background-color:#00B55A;
     color:white;
