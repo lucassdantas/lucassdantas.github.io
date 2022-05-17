@@ -207,6 +207,8 @@ nav{
     }
     .escondido{
         opacity:0 !important;
+        display:none;
+        visibility:hidden;
     }
 }
 

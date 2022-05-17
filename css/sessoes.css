@@ -8,7 +8,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    padding:90px 4% 4% 4%;
+    padding:90px 15% 4% ;
     text-align:center;
 }
 #livros-div{
@@ -17,7 +17,7 @@
     padding:50px 0 0 0;
 }
 #livros-div img{
-    width:60%;
+    width:100%;
 }
 #conjunto-div{
     width:100%;
@@ -70,7 +70,7 @@
     margin:0 0 40px 0;
 }
 #principal div #botao{
-    font-size:1.5em;
+    font-size:1.2em;
     width:80%;
     margin-left:10%;
 }
@@ -134,7 +134,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding: 2% 24%;
+    padding: 5% 24%;
     
 }
 .section div{
@@ -144,12 +144,16 @@
     margin:0 0 20px 0;
 }
 .section .col{
-    padding:0 10%;
-    margin:10px 0;
+    padding:0 5%;
+    margin:20px 0;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+}
+.section h4{
+    margin:0 0 10px 0;
+    font-size:1.3em;
 }
 .section h5{
     font-size:1.5em;
@@ -175,6 +179,21 @@
 }
 
 /*SECÇÃO 05*/
+
+#how_subscribe .col{
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.2);
+    padding:10% 15%;
+}
+#how_subscribe img{
+    width:50px;
+}
+#how_subscribe .img_subtitle{
+    margin:10px 0;
+    padding:0;
+}
+#how_subscribe .div_button{
+    width:80%;
+}
 /*Responsive*/
 @media (min-width:1024px){
     #principal{
