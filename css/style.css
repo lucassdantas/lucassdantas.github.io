@@ -126,6 +126,7 @@ nav{
 
 @media(max-width:900px){
     header{
+        z-index:3;
         height:60px;
         position:fixed;
         width:100vw;
