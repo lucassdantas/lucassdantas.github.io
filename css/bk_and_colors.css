@@ -13,6 +13,7 @@
 .little_black{
     background-color:#212121;
 }
+
 .orange{
     background-color:rgb(255,107,0);
 }
@@ -30,10 +31,14 @@
 
 .white{
     background-color: white;
+    border-color:white;
 }
 
 .blue{
     background-color: rgb(0,151,255);
+}
+.dark_blue{
+    background-color:#143C4D;
 }
 .blue:hover{
     background-color:#0060a2;
@@ -44,4 +49,7 @@
 }
 .suave{
     color:#7E8399;
+}
+.muito_suave{
+    color:#6F99B3;
 }

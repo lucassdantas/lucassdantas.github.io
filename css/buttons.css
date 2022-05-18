@@ -11,3 +11,12 @@
 .btn:hover{
     cursor:pointer;
 }
+
+.btn_vazado{
+    border:2px solid;
+    border-radius:8px;
+    padding:2% 3%;
+}
+.btn_vazado:hover{
+    cursor:pointer;
+}

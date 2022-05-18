@@ -253,6 +253,50 @@
         width:100%;
         padding:20px 0;
     }
+    #tertulia{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        padding:5% 15%;
+    }
+    #tertulia_logo{
+        width:120px;
+    }
+    
+    #tertulia .col, #tertulia .col02{
+        width:50%;
+        margin:0 20px;
+    }
+    #tertulia .col02{
+        text-align:center;
+        font-weight:bold;
+
+    }
+    #tertulia .div_button{
+        padding:0 30px;
+    }
+    #tertulia p{
+        font-size:0.83em;
+    }
+    .icon-div{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        margin:0px 0 10px 0;
+        
+    }
+    .icon-div img{
+        width:30px;
+        padding:0;
+        margin:0 8px;
+    }
+    #tertulia .btn_vazado:hover{
+        background-color: white;
+        color:#143C4D;
+    }
+
 /*Responsive*/
 @media (min-width:1024px){
     #principal{
