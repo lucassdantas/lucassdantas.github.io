@@ -48,8 +48,8 @@
     background-color: #FFF6F6;
 }
 .suave{
-    color:#7E8399;
+    color:rgba(255,255,255,0.6);
 }
 .muito_suave{
-    color:#6F99B3;
+    color:rgba(255,255,255, 0.3);
 }

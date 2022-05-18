@@ -250,6 +250,8 @@
     #leads{
         background-image: url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-72599e87f1f1c7f0ba2b874a11237a48.webp");
         padding:15%;
+        background-repeat:no-repeat;
+        background-size:cover;
     }
     #leads .title{
         font-size:2em;
@@ -308,6 +310,33 @@
         color:#143C4D;
     }
 
+    footer {
+        padding:8% 25%;
+        line-height:1.3em;
+    }
+    footer #footer_logo{
+        width:50%;
+    }
+    #info_div p {
+        margin:20px 0;
+    }
+    footer #info_div .suave:nth-child(2){
+        margin-bottom:20px;
+    }
+    footer h4{
+        margin:30px 0 5px 0;
+        font-weight:400;
+    }
+    footer ul{
+        line-height:1.8em;
+        font-weight:300;
+
+    }
+    footer a:hover{
+        text-decoration:underline;
+        transition:0.5s;
+    }
+    
 /*Responsive*/
 @media (min-width:1024px){
     #principal{
