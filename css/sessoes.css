@@ -336,7 +336,34 @@
         text-decoration:underline;
         transition:0.5s;
     }
-    
+    .final_footer{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+
+        text-align:center;
+        width:100%;
+    }
+    .white_line_div{
+        margin:40px 0;
+        padding:0;
+        width:100%;
+    }
+    .final_footer #politicas{
+        text-decoration:underline;
+        font-weight:400;
+        margin-bottom:30px;
+    }
+    #footer_info{
+        font-size:15px;
+        margin-bottom:10px;
+    }
+    #GloriaDominum{
+        font-size:50px;
+        text-align:center;
+        line-height:80px;
+    }
 /*Responsive*/
 @media (min-width:1024px){
     #principal{
