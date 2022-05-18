@@ -121,11 +121,32 @@
         display:flex;
         justify-content:center;
         flex-direction:column;
-        padding:5% 25%;
+        padding:5% 20%;
+        text-align:center;
+    }
+    #about .red_line_div{
+        width:100%;
+        padding:0 25%;
+        justify-content:center;
+        text-align:center;
+    }
+    #about .red_line{
+        height:2px;
     }
     #about h2{
         text-align:center;
         font-size:1.9em;
+        padding: 0 5%;
+    }
+    #about .video{
+        height:250px;
+        width:100%;
+        text-align:center;
+        padding:0;
+    }
+    #about iframe{
+        width:100%;
+        transform: scale(1.03);
     }
 
 /*SECÇÃO 04 e 05*/
@@ -223,18 +244,8 @@
 .testemonials_video{
     margin:40px 0 0 0;
 }
-/*GERAL*/
-.video{
-    margin:0 0 30px 0;
-    border-radius:8px;
-    overflow:hidden;
-}
-.video iframe{
-    width:100%;
-    z-index:0;
-    transform: scale(1.2);
-    height:100%;
-}
+
+
 /*SECÇÃO 07*/
     #leads{
         background-image: url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-72599e87f1f1c7f0ba2b874a11237a48.webp");

@@ -84,6 +84,17 @@ header{
     height:100%;
 }
 
+.video{
+    margin:0 0 30px 0;
+    border-radius:8px;
+    overflow:hidden;
+}
+.video iframe{
+    width:100%;
+    z-index:0;
+    transform: scale(1.2);
+    height:100%;
+}
 nav{
     color:white;
     display:flex;
