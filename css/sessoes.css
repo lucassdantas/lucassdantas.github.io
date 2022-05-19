@@ -61,19 +61,20 @@
 }
 
 #principal div h2{
-    font-size:3em;
+    font-size:2.5em;
     margin:0 0 50px 0 ;
 }
 #principal div p{
-    font-size:1.5em;
+    font-size:1em;
     font-weight:bold;
     margin:0 0 40px 0;
 }
 #principal div #botao{
     font-size:1.2em;
-    width:80%;
-    margin-left:10%;
+    width:100%;
 }
+
+
 /*SECÇÃO 02*/
 #nossos_numeros{
     padding:7px 0;
@@ -116,6 +117,8 @@
     margin:0 2%;
 }
 
+
+
 /*SECÇÃO 03*/
     #about{
         display:flex;
@@ -149,13 +152,14 @@
         transform: scale(1.03);
     }
 
+    
 /*SECÇÃO 04 e 05*/
 #how, .section{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding: 5% 24%;
+    padding: 5% 20%;
     
 }
 .section div{
@@ -271,7 +275,7 @@
         flex-direction:row;
         justify-content:center;
         align-items:center;
-        padding:5% 15%;
+        padding:8% 10%;
     }
     #tertulia_logo{
         width:120px;
@@ -290,7 +294,7 @@
         padding:0 30px;
     }
     #tertulia p{
-        font-size:0.83em;
+        font-size:0.7em;
     }
     .icon-div{
         display:flex;
@@ -311,8 +315,9 @@
     }
 
     footer {
-        padding:8% 25%;
+        padding:8% 15%;
         line-height:1.3em;
+        overflow: hidden;
     }
     footer #footer_logo{
         width:50%;
@@ -360,11 +365,10 @@
         margin-bottom:10px;
     }
     #GloriaDominum{
-        font-size:50px;
+        font-size:3em;
         text-align:center;
         line-height:80px;
         color:rgba(255,255,255,0.25);
-        font-weight:100;
     }
 /*Responsive*/
 @media (min-width:1024px){

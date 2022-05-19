@@ -10,6 +10,9 @@
 .black{
     background-color: black;
 }
+.c_black{
+    color:black;
+}
 .little_black{
     background-color:#212121;
 }
@@ -48,8 +51,8 @@
     background-color: #FFF6F6;
 }
 .suave{
-    color:rgba(255,255,255,0.6);
+    opacity:0.6;
 }
 .muito_suave{
-    color:rgba(255,255,255, 0.2);
+    color:rgba(255,255,255, 0.25);
 }
