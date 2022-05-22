@@ -107,14 +107,19 @@
 #numbers{
     display:flex;
     flex-direction:row;
+    justify-content:space-between;
+    align-items:top;
 }
 #numbers h3{
     font-size:1.5em;
-    font-weight: 200px;
+    font-weight:400;
     margin:0 0 4px 0;
 }
 #numbers div{
     margin:0 2%;
+}
+#numbers .col:nth-child(2){
+    margin:0 10%
 }
 
 
@@ -135,11 +140,13 @@
     }
     #about .red_line{
         height:2px;
+        margin:20px 0;
     }
     #about h2{
         text-align:center;
-        font-size:1.9em;
+        font-size:1.7em;
         padding: 0 5%;
+        font-weight:500;
     }
     #about .video{
         height:250px;
@@ -371,7 +378,7 @@
         color:rgba(255,255,255,0.25);
     }
 /*Responsive*/
-@media (min-width:1024px){
+@media (min-width:800px){
     #principal{
         flex-direction:row-reverse;
         padding:2% 2%;
@@ -406,5 +413,94 @@
     #principal div h2{
         font-size:2.5em;
     }
+
+    /*2° secção*/
+    .section{
+        flex-direction:row-reverse;
+    }
+    
+    #nossos_numeros{
+        width:100%;
+    }
+    #s2_fundo{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:unset;
+        text-align:unset;
+        padding:20px 10%;
+        font-size:1em;
+        height:250px;
+    }
+    #numbers{
+        width:60%;
+        
+    }
+    #s2_fundo h3{
+        font-weight:500;
+        font-size:2.2em;
+        margin:0;
+    }
+    #s2_fundo h4{
+        font-size:1em;
+        font-weight:400;
+    }
+    #numbers .col{
+        margin-right:10px;
+        text-align:right;
+        align-items:flex-end;
+    }
+    #s2_fundo #titulo{
+        width:5%;
+        margin:0;
+    }
+    #s2_fundo #titulo .title{
+        font-size:1.5em;
+        font-weight:500;
+    }
+    #s2_fundo .red_line_div{
+        width:20%;
+        margin:0 5%;
+    }
+    #s2_fundo .red_line{
+        width:100%;
+    }
+    /*3 secção*/
+    #about{
+        flex-direction:row-reverse;
+        align-items:center;
+        padding:40px 20px;
+    }
+    #about div:first-child{
+        padding:0;
+        margin:0;
+    }
+    #about div:first-child .title{
+        padding:0 50% 0 0;
+        text-align:left;
+    }
+    #about .red_line_div{
+        justify-content:left;
+        padding:0;
+    }
+    #about .red_line{
+        width:50%;
+    }
+    #about .video{
+        width:40%;
+        margin:0;
+        padding:0;
+    }
+    #about .video iframe{
+        width:900px;
+    }
+    #about .video iframe{
+        width:100%;
+        height:100%;
+    }
+    #about .title{
+        font-size:2em;
+    }
+
   
 }

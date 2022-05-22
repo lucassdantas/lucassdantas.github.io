@@ -2,8 +2,8 @@
 .wpp_position{
     position: fixed;
     overflow:hidden;
-    width:10%;
-    height:10vw;
+    width:14%;
+    height:14vw;
     right:9vw;
     bottom:8%;
     border-radius:100%;
@@ -28,5 +28,13 @@
     100%{
         transform: scale(170%);
         opacity:0;
+    }
+}
+
+@media (min-width:800px){
+    .wpp_position{
+        width:80px;
+        height:80px;
+        right:5%;
     }
 }

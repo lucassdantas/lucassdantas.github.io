@@ -68,6 +68,7 @@ li{
 header{
     background-color:var(--vermelho);
     height:70px;
+    margin:0;
     padding:5px 2vw;
 }
 #div-logo{
