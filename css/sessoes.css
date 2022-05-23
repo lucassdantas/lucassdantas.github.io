@@ -379,6 +379,10 @@
     }
 /*Responsive*/
 @media (min-width:800px){
+    .section{
+        flex-direction:row-reverse;
+        flex-wrap:wrap;
+    }
     #principal{
         flex-direction:row-reverse;
         padding:2% 2%;
@@ -415,9 +419,6 @@
     }
 
     /*2° secção*/
-    .section{
-        flex-direction:row-reverse;
-    }
     
     #nossos_numeros{
         width:100%;
@@ -469,38 +470,123 @@
     #about{
         flex-direction:row-reverse;
         align-items:center;
-        padding:40px 20px;
+        padding:80px 20px;
+        height:100%;
     }
-    #about div:first-child{
+    #about .div_title{
         padding:0;
         margin:0;
+        width: 30%;
+        font-size:1.2em;
+        
     }
     #about div:first-child .title{
-        padding:0 50% 0 0;
+        padding:0 10% 0 0;
         text-align:left;
     }
     #about .red_line_div{
         justify-content:left;
         padding:0;
+        width:100%;
+        margin:0;
     }
     #about .red_line{
-        width:50%;
+        width:70%;
     }
     #about .video{
-        width:40%;
+        width:50%;
         margin:0;
         padding:0;
+        border-radius:8px;
+        overflow:hidden;
+        transform: scale(1.2);
+        
     }
-    #about .video iframe{
-        width:900px;
-    }
+  
     #about .video iframe{
         width:100%;
-        height:100%;
+        padding:0;
     }
     #about .title{
         font-size:2em;
     }
 
-  
+
+    /*4 SECÇÃO*/
+    #how{
+        flex-direction:row;
+        flex-wrap:wrap;
+        padding: 5% 15%;
+
+    }
+    #how .title_div{
+        width:100%;
+    }
+    #how .title_div h5{
+        font-size:2em;
+    }
+    #how .row{
+        width:100%;
+        display:flex;
+        justify-content:space-around;
+        align-items:flex-start;
+        margin:0 0 40px 0;
+    }
+    #how .col{
+        width:33.3%;
+        padding:0px;
+        font-size:14px;
+        margin:0 20px;
+    }
+    #how img{
+        transform: scale(0.9);
+    }
+    #how .col .img_subtitle{
+        padding:0 30px;
+        margin: 0 0 10px 0;
+    }
+    #how .div_button{
+        width:100%;
+        padding:0% 30%;
+    }
+    #how .btn{
+        padding: 5% 5%;
+    }
+
+    /*5 SECÇÃO*/
+ 
+    #how_subscribe{
+        flex-direction:row;
+        padding: 5% 10%;
+    }
+    #how_subscribe .title_div h5{
+        font-size:48px;
+        padding:0 50px;
+    }
+    #how_subscribe .row{
+        width:100%;
+        display:flex;
+        justify-content:space-around;
+        align-items:flex-start;
+        margin:20px;
+    }
+    #how_subscribe .col{
+        margin: 0 40px;
+        padding: 50px 0px;
+    }
+
+    #how_subscribe .img_subtitle{
+        padding:0;
+        font-size:1em;
+        margin:0 0 20px;
+    }
+    #how_subscribe p{
+        margin:0 30px;
+    }
+    #how_subscribe .div_button{
+        padding:0 25%;
+    }
+    #how_subscribe .btn{
+        padding:20px 10px;
+    }
 }
