@@ -363,9 +363,8 @@
         font-size:15px;
         margin-bottom:10px;
     }
-    #GloriaDominum{
+    #GloriaDominum {
         font-size:3em;
-        text-align:center;
         line-height:80px;
         color:rgba(255,255,255,0.25);
     }
@@ -633,7 +632,20 @@
         padding:20px 8%;
     }
     footer{
+        display:flex;
         flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        padding:5% 5%;
+    }
+    #info_div{
+        width:20%;
+        margin-right:30%;
+    }
+    .footer_info{
+        display:flex;
+        width:50%;
+        justify-content:space-between;
     }
 
 }

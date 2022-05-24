@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sobre</title>
-        <link rel="shortcut icon" href="https://www.bibliotecacatolica.com.br/nova-home/images/logotipo-mbc.png">
+        <link rel="shortcut icon" href="https://cdn.greatsoftwares.com.br/arquivos/paginas/10580-bd3c93a058ad9fa212b23fd6d88e7df4.png">
         <!--CSS-->
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/sessoes.css">
@@ -18,7 +18,5 @@
             if (preg_match("/login/", $url)){
                 echo "<link rel='stylesheet' href='./css/login_style.css'>";
             }
-            error_reporting(E_ALL);
-            ini_set('display_erros', '1');
         ?>
     </head>
