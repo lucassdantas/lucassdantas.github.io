@@ -13,4 +13,10 @@
         <link rel="stylesheet" href="./css/bk_and_colors.css">
         <link rel="stylesheet" href="./css/lines.css">
         <link rel="stylesheet" href="./css/whats_style.css">
+        <?php
+            $url = $_SERVER["REQUEST_URI"];
+            if (preg_match("/login/", $url)){
+                echo  "<link rel='stylesheet' href='./css/login_style.css'>";
+            }
+        ?>
     </head>
