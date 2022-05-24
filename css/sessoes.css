@@ -624,10 +624,16 @@
     /*LEADS*/
     #leads{
         padding:60px 10%;
+        background-image: url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-8a946bbcd0707c867af3361049c4f3a0.webp");
+        background-repeat:no-repeat;
+        background-size:cover;
     }
     /*tertulia*/
     #tertulia{
         padding:20px 8%;
+    }
+    footer{
+        flex-direction:row;
     }
 
 }

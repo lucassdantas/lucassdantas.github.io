@@ -5,15 +5,15 @@ main{
     align-items:center;
 }
 .div_logo{
-    width:100%;
+    width:50%;
     height:100vh;
     display:flex;
     padding: 0 0 0;
-    background-image: url(https://www.painel.bibliotecacatolica.com.br/static/media/client_login_backgroung_6_columns.92aa909a.jpg);
+    background-image: url("https://www.painel.bibliotecacatolica.com.br/static/media/client_login_backgroung_6_columns.92aa909a.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
-.logo{
+.logo_svg{
     fill:#ed5240;
     
     

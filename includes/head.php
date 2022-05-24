@@ -16,7 +16,9 @@
         <?php
             $url = $_SERVER["REQUEST_URI"];
             if (preg_match("/login/", $url)){
-                echo  "<link rel='stylesheet' href='./css/login_style.css'>";
+                echo "<link rel='stylesheet' href='./css/login_style.css'>";
             }
+            error_reporting(E_ALL);
+            ini_set('display_erros', '1');
         ?>
     </head>
