@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sobre</title>
-        <link rel="shortcut icon" href="https://www.bibliotecacatolica.com.br/nova-home/images/logotipo-mbc.png">
-        <!--CSS-->
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/sessoes.css">
-        <link rel="stylesheet" href="./css/buttons.css">
-        <link rel="stylesheet" href="./css/bk_and_colors.css">
-        <link rel="stylesheet" href="./css/lines.css">
-        <link rel="stylesheet" href="./css/whats_style.css">
-    </head>
+<?php
+require_once "./includes/head.php"
+?>
     <body>
         <header>
             <nav>
@@ -36,7 +23,7 @@
                 <div id="login">
                     <ul class="assine">
                         <li id="login_li" class="escondido">
-                            <a href="#" class="nav-link">Login</a>
+                            <a href="./login.php" class="nav-link">Login</a>
                         </li>
                         <li><a href="#" class="btn_header"> Assine</a></li>
                     </ul>
@@ -124,7 +111,7 @@
                     <div class="col">
                         <img src="https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-ec82921ce03037b780dec98e7ba68898.svg" alt="icone calendario">
                         <h4 class="img_subtitle">Assinatura mensal ou anual</h4>
-                        <p class="suave">Entre no clube com uma assinatura a partir de R$59,90 e com o frete grátis.​</p>
+                        <p class="suave">Entre no clube com uma assinatura a partir de R$59,90 e com o frete grátis.</p>
                     </div>
                     <div class="col">
                         <img src="https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-167b77c9ee3855dcba7b8ad00a25bba9.svg" alt="icone livros">
@@ -187,7 +174,7 @@
                 <h2 class="title">
                     Confira os depoimentos de quem já é assinante
                 </h2>
-                <div class="testemonials_video">
+                <div id="testemonials_video" class="testemonials_video section" >
                     <div class="video">
                         <iframe src="https://player.vimeo.com/video/349893231?autoplay=0" allowfullscreen mozallowfullscreen webkitallowfulscreen 
                         frameborder="0"
@@ -198,12 +185,13 @@
                         frameborder="0"
                         allow="accelerometer;autoplay;picture-in-picture"></iframe>
                     </div>
+                    <div class="video">
+                        <iframe src="https://player.vimeo.com/video/349898614?autoplay=0" allowfullscreen mozallowfullscreen webkitallowfulscreen 
+                        frameborder="0"
+                        allow="accelerometer;autoplay;picture-in-picture"></iframe>
+                    </div>
                 </div>
-                <div class="video">
-                    <iframe src="https://player.vimeo.com/video/349898614?autoplay=0" allowfullscreen mozallowfullscreen webkitallowfulscreen 
-                    frameborder="0"
-                    allow="accelerometer;autoplay;picture-in-picture"></iframe>
-                </div>
+
             </section>
             <section id="leads" class="c_white section">
                 <div class="div_title">
@@ -238,73 +226,6 @@
                     </div>
             </section>
         </main>
-        <footer class="black c_white">
-            <div id="info_div">
-                <img src="https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-0689f3cc945304ef89348ed4409860bd.svg" alt="logotipo" id="footer_logo">
-                <p class="suave">
-                    contato@minhabibliotecacatolica.com.br
-                    <br>
-                    CNPJ: 28.924.792/0001-00
-                </p>
-                <p class="suave">
-                    Avenida João Klauck, 1051
-                    <br>
-                    Dois Irmãos -RS - CEP 93950-000
-                </p>
-                <img src="https://cdn.greatsoftwares.com.br/arquivos/paginas_publicadas/assine.bibliotecacatolica.com.br-home/imagens/desktop/1652704022-5954654-10580-a1fa93e190402217a4af1da1b072e8bb.png" alt="reclame aqui ">
-            </div>
-            <div>
-                <h4>INSTITUCIONAL</h4>
-                <ul class="suave">
-                    <li><a href="#">Nossa história</a></li>
-                    <li><a href="#">Trabalhe conosco</a></li>
-                    <li><a href="#">Dúvidas frequentes</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Tertúlia Podcast</a></li>
-                </ul>
-                <h4>ASSINANTES</h4>
-                <ul class="suave">
-                    <li><a href="#">Área de membros</a></li>
-                    <li><a href="#">Loja Premium</a></li>
-                    <li><a href="#">Peregrino App</a></li>
-                </ul>
-                <h4>REDES SOCIAIS</h4>
-                <ul class="suave">
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Youtube</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                </ul>
-            </div>
-            <div class="final_footer">
-                <div class="white_line_div">
-                    <div class="separator suave white"> </div>
-                </div>
-                <ul id="politicas" class="suave ">
-                    <li><a href="#">Termos de Uso</a></li>
-                    <li><a href="#">Política de Privacidade</a></li>
-                </ul>
-                <p id="footer_info" class="muito_suave">
-                    Imagens meramente ilustrativas. Disponibilidade limitada sujeita aos itens em estoque no momento da efetivação da compra.
-                    <br>
-                    A Loja Virtual disponibiliza alguns itens selecionados do acervo de livros, box e brindes da Minha Biblioteca Católica.
-                </p>
-            </div>
-            <div class="white_line_div">
-                <div class="separator suave white"> </div>
-            </div>
-            <div id="GloriaDominum" class="">
-                AD MAIOREM DEI GLORIAM
-
-            </div>
-            <div id="div_wpp_button">
-                <a href="https://api.whatsapp.com/send?phone=5551993057019&text=Oi%21%20Gostaria%20de%20ajuda%20com%20minha%20assinatura.%20Meu%20nome%20%C3%A9%20%7Bnome%7D%20e%20meu%20e-mail%20%C3%A9%20%7Be-mail%7D." target="_blank">
-                    <img src="./images/icones/whats app icon.png" alt="Botão flutuante do Whats App" id="icone_whats" class="wpp_position">
-                    <div id="div_animada" class="wpp_position"></div>
-                </a>
-            </div>
-        </footer>
-
-        <script src="script.js"></script>
-    </body>
-</html>
+       <?php
+       require_once "./includes/footer.php"
+       ?>
