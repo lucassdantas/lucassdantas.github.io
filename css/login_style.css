@@ -1,6 +1,17 @@
+main{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
 .div_logo{
-    background-image: url()
+    width:50%;
+    height:100vh;
+    display:flex;
+    padding:15% 0 0 0;
 }
 .logo{
     fill:#ed5240;
+    
+    
 }
