@@ -35,9 +35,9 @@
     border:2px solid #BBC6C1;
     border-radius:8px;
     height:50px;
-    width:60%;
+    width:100%;
 
-    font-size:0.8em;
+    font-size:0.6em;
     font-weight:bold;
     margin: 60px 0;
 }
@@ -61,16 +61,17 @@
 }
 
 #principal div h2{
-    font-size:2.5em;
+    font-size:2em;
     margin:0 0 50px 0 ;
 }
 #principal div p{
     font-size:1em;
     font-weight:bold;
     margin:0 0 40px 0;
+    font-weight:400;
 }
 #principal div #botao{
-    font-size:1.2em;
+    font-size:1em;
     width:100%;
 }
 
@@ -86,7 +87,7 @@
     justify-content:center;
     align-items:center;
 
-    padding:5% 25%;
+    padding:5% 2%;
 }
 #s2_fundo h2{
     font-size:2em;
@@ -94,8 +95,7 @@
     font-weight:200px;
 }
 .red_line_div{
-    width:100%;
-    text-align:centr;
+    width:80%;
 }
 .red_line{
     width:100%;
@@ -107,19 +107,11 @@
 #numbers{
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
-    align-items:top;
 }
 #numbers h3{
     font-size:1.5em;
     font-weight:400;
     margin:0 0 4px 0;
-}
-#numbers div{
-    margin:0 2%;
-}
-#numbers .col:nth-child(2){
-    margin:0 10%
 }
 
 
@@ -129,7 +121,7 @@
         display:flex;
         justify-content:center;
         flex-direction:column;
-        padding:5% 20%;
+        padding:5% 50px;
         text-align:center;
     }
     #about .red_line_div{
@@ -327,7 +319,7 @@
         overflow: hidden;
     }
     footer #footer_logo{
-        width:50%;
+        width:160px;
     }
     #info_div p {
         margin:20px 0;
@@ -393,7 +385,7 @@
 
     #conjunto-div{
         justify-content: flex-start;
-        width:600px;
+        width:350px;
     }
     .conjunto span{
         font-size:1.5em;
@@ -453,7 +445,7 @@
     }
     #s2_fundo #titulo{
         width:5%;
-        margin:0;
+        margin:50px;
     }
     #s2_fundo #titulo .title{
         font-size:1.5em;
@@ -557,7 +549,7 @@
  
     #how_subscribe{
         flex-direction:row;
-        padding: 5% 10%;
+        padding: 5% 7%;
     }
     #how_subscribe .title_div h5{
         font-size:48px;
@@ -571,7 +563,7 @@
         margin:20px;
     }
     #how_subscribe .col{
-        margin: 0 40px;
+        margin: 0 15px;
         padding: 50px 0px;
     }
 
@@ -589,4 +581,53 @@
     #how_subscribe .btn{
         padding:20px 10px;
     }
+
+
+
+    /*TESTEMONIALS*/
+    #testemonials{
+        flex-direction:row;
+        padding:60px 10%;
+    }
+    #testemonials .title_div{
+        width:100%;
+    }
+    #testemonials .title{
+        font-size:48px;
+        padding:0 20%;
+    }
+    #testemonials .red_line_div{
+        width:100%;
+        padding:0 0% 0 35%;
+        
+    }
+    #testemonials .red_line{
+        width:50%;
+    }
+    .testemonials_video{
+        flex-direction:row;
+        flex-wrap:wrap;
+        padding: 5% 0%;
+        width:100%;
+    }
+
+    #testemonials .caroussel{
+        width:50%;
+    }
+    #testemonials_video{
+        padding:0;
+    }
+    .testemonials_video .video{
+        width:30%;
+        margin: 0 5px;
+    }
+    /*LEADS*/
+    #leads{
+        padding:60px 10%;
+    }
+    /*tertulia*/
+    #tertulia{
+        padding:20px 8%;
+    }
+
 }
