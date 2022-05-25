@@ -125,9 +125,7 @@ nav{
     margin:0 9px;
 }
 
-#login{
-    width:15%;
-}
+
 #login ul{
     display:flex;
     align-items:center;

@@ -134,6 +134,10 @@
         height:2px;
         margin:20px 0;
     }
+    #about .div_title{
+        margin:0 2px;
+        width:100%;
+    }
     #about h2{
         text-align:center;
         font-size:1.7em;
@@ -142,9 +146,8 @@
     }
     #about .video{
         height:250px;
-        width:100%;
+        width:80%;
         text-align:center;
-        padding:0;
     }
     #about iframe{
         width:100%;
@@ -369,7 +372,7 @@
         color:rgba(255,255,255,0.25);
     }
 /*Responsive*/
-@media (min-width:800px){
+@media (min-width:900px){
     .section{
         flex-direction:row-reverse;
         flex-wrap:wrap;
@@ -461,17 +464,17 @@
     #about{
         flex-direction:row-reverse;
         align-items:center;
-        padding:80px 20px;
+        flex-wrap:nowrap;
+        padding:80px 10px;
         height:100%;
     }
     #about .div_title{
-        padding:0;
-        margin:0;
+        text-align:center;
         width: 30%;
         font-size:1.2em;
         
     }
-    #about div:first-child .title{
+    #about .div_title .title{
         padding:0 10% 0 0;
         text-align:left;
     }
@@ -484,19 +487,16 @@
     #about .red_line{
         width:70%;
     }
-    #about .video{
+    #about .video-about{
         width:50%;
-        margin:0;
-        padding:0;
         border-radius:8px;
         overflow:hidden;
-        transform: scale(1.2);
+        transform: scale(1.6, 1.5);
         
     }
   
-    #about .video iframe{
-        width:100%;
-        padding:0;
+    #about .video-about iframe{
+        margin:0;
     }
     #about .title{
         font-size:2em;
