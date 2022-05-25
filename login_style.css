@@ -10,9 +10,10 @@ main{
     height:100vh;
 }
 .div_logo{
-    width:80%;
+    
+    width:60vw;
     display:flex;
-    padding:15% 200px 5%;
+    padding:15% 150px 5% 15%;
     background-image: url("https://www.painel.bibliotecacatolica.com.br/static/media/client_login_backgroung_6_columns.92aa909a.jpg");
     background-repeat:no-repeat;
     background-size:cover;
@@ -21,6 +22,7 @@ main{
 .logo_svg{
     fill:#ed5240;
     width:380px;
+    height:200px;
     
     
 }
@@ -61,4 +63,20 @@ main{
 }
 .c_red{
     font-weight:700;
+}
+
+@media (max-width:1124px){
+    main{
+        flex-direction:column;
+    }
+    .div_logo{
+        width:100%;
+        padding:5% 0%;
+        justify-content:center;
+
+    }
+    .formulario{
+        width:100%;
+        padding-left:25%;
+    }
 }
