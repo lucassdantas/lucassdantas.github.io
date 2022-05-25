@@ -1,16 +1,17 @@
 main{
     display:flex;
     flex-direction:row;
-    justify-content:center;
-    align-items:center;
 }
 .div_logo{
-    width:50%;
+    width:80%;
     height:100vh;
     display:flex;
     padding: 0 0 0;
+    margin:0;
+    padding:15% 20% 5%;
     background-image: url("https://www.painel.bibliotecacatolica.com.br/static/media/client_login_backgroung_6_columns.92aa909a.jpg");
     background-repeat:no-repeat;
+    background-size:cover;
     background-attachment: fixed;
 }
 .logo_svg{
@@ -23,7 +24,8 @@ main{
     flex-direction:column;
     background-color:white;
     z-index:1;
-    margin-left:30px;
+    padding:60px 3% 10% 7%;
+    width:50%;
 }
 .formulario form{
     display:flex;
@@ -38,6 +40,7 @@ main{
     height:60px;
     width:80%;
     padding-left:5px;
+    border:1px solid rgba(0,0,0,0.8);
 }
 .formulario input::placeholder{
     font-weight:bold;
@@ -48,7 +51,8 @@ main{
     text-align:center;
     padding: 10px 0;
     width:80%;
-    margin-top:40px;
+    margin:40px 0 20px;
+    border:0;
 }
 .c_red{
     font-weight:700;
