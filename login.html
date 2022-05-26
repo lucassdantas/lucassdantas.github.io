@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -26,10 +25,10 @@
         <div class="formulario">
             <h2>Bem-vindo(a)</h2>
             <p>Faça login para acessa a área do assinante.</p>
-            <form method="post" action="./login.php"> 
+            <form id="formulario" method="post" action="./Php/login.php"> 
                 <input 
-                    type="email" 
-                    name="email" 
+                    type="text" 
+                    name="login" 
                     placeholder="Email"
                 >
                 <input
@@ -53,4 +52,5 @@
             <a href="#" class="c_red">Acesse os termos uso</a>
         </div>
     </main>
+    <script src="./Scripts/PreventDefault.js"></script>
 </body>
