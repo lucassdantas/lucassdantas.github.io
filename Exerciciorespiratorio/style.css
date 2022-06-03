@@ -1,0 +1,246 @@
+/*GENERAL ----GENERAL -----*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    width:100vw;
+    height:100vh;
+    overflow-x:hidden;
+    background-color: rgb(155, 231, 231);
+    
+}
+.hidden{
+    display:none;
+    visibility:hidden;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+/* MAIN --- MAIN ---*/
+.title{
+    text-align:center;
+    font-size:2.5em;
+}
+header{
+    display:flex;
+    
+    justify-content:center;
+    margin:25px 0;
+}
+#DivExercSelector{
+    display:grid;
+    
+    justify-content:center;
+
+    margin:0 0 0% 0;
+
+    width:100%;
+
+    
+}
+#SelectExercTitle{
+    font-size:1.7em;
+    font-weight:700px;
+    margin-bottom:3px;
+}
+select{
+font-size:1em;
+font-weight:500px;
+}
+
+#DivCustom{
+    display:flex;
+    flex-wrap:wrap;
+
+    text-align:center;
+    align-items:center;
+    justify-content:space-around;
+    
+    width:100%;
+
+    margin: 0 0 1% 0;
+    /*tirar isso dps*/
+    display:none;
+    visibility:hidden;
+}
+.CustomDiv{
+    margin:10px 0;
+    display:grid;
+
+    /*tirar isso dps*/
+    display:none;
+    visibility:hidden;
+}
+.CustomHidden{
+    display:none;
+    visibility: hidden;
+}
+
+#CutDownSection{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:0 5%;
+
+    text-align:center;
+    width:100vw;
+    margin:80px 0;
+
+   
+
+}
+
+#InspiracaoDiv, #PausaDiv, #ExpiracaoDiv{
+    font-size:1.5em;
+    width:40%;
+    max-width:400px;
+    margin:0 5px;
+    padding:0 2%;
+    background-color: white;
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    border-radius:15px;
+}
+
+.cutdown-title{
+    margin: 10px 0;
+}
+.text{
+    font-size:3em;
+    margin: 25% 0;
+}
+.ValueInput{
+    height:30px;
+
+    border-radius:2px;
+    border-width:1px;
+    border-style:solid;
+    
+    border-style:solid;
+    border-color:black;
+
+}
+#DivButton{
+    text-align:center;
+    margin:2% 0 10vh 0;
+    
+}
+#ButtonInit{
+    font-size:2em;
+    border-width:2px;
+    border-style:solid;
+    background-color:rgb(3, 235, 235);
+    border-radius:20px;
+    padding:7px;
+    cursor:pointer;
+
+}
+#ButtonInit:hover{
+    background-color:aqua;
+}
+
+#ButtonInit:active{
+    background-color:rgb(0, 255, 200); 
+}
+
+#ButtonStop{
+    font-size:2em;
+    border-width:2px;
+    border-style:solid;
+    background-color:rgb(3, 235, 235);
+    border-radius:20px;
+    padding:7px;
+    cursor:pointer;
+
+}
+#ButtonStop:hover{
+    background-color:aqua;
+}
+
+#ButtonStop:active{
+    background-color:rgb(0, 255, 200); 
+}
+
+#Footer{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;  
+    justify-content:center;
+    
+    text-align:center;
+    
+    width:100vw;
+    height:150px;
+    background-color:black;
+    color:white;
+}
+#Footer a{
+    color:rgba(0, 82, 223, 0.958);
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:underline rgba(100, 0, 68, 0.277);
+    transition:0.8s
+}
+
+#Footer a:hover{
+    color:aqua;
+    transition: 0.8s;
+}
+
+@media (max-width:500px){
+   #CutDownSection{
+        width:100%;
+        text-align:center;
+        
+   }
+    #InspiracaoDiv, #ExpiracaoDiv, #PausaDiv{
+        font-size:10px;
+        
+        height:200px;
+        margin: 0 5px;
+        border-width:1px;
+        padding:50px 0;
+    }
+
+    #Footer{
+       height:300px;
+    }
+}
+
+
+@media (max-width:300px){
+    .title{
+        font-size:1.8em;
+    }
+    #SelectExercTitle{
+        font-size:1em;
+
+    }
+    select{
+        font-size:12px;
+    }
+    #CutDownSection{
+        flex-direction:column;
+        margin: 10% 0 5%;
+        padding:0px;
+    }
+    #InspiracaoDiv, #ExpiracaoDiv, #PausaDiv{
+        width:110%;
+        height:100px;
+        margin:5px 0;
+        padding:0;
+
+    }
+    .text{
+        margin:0;
+    }
+}
