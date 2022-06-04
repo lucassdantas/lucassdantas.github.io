@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 require_once "./Php/conexao.php";
 session_start();
 $exibir = 0;
@@ -30,7 +30,7 @@ if (isset($_POST["btn-login"])){
     }
 }
 
-?>
+?>-->
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -60,7 +60,7 @@ if (isset($_POST["btn-login"])){
         <div class="formulario">
             <h2>Bem-vindo(a)</h2>
             <p>Faça login para acessa a área do assinante.</p>
-            <form id="formulario" method="post" action="<?php echo $_SERVER["PHP_SELF"];?>"> 
+            <form id="formulario" method="post" action="./login.html"> 
                 <input 
                     type="text" 
                     name="login" 
@@ -80,6 +80,7 @@ if (isset($_POST["btn-login"])){
                     class="btn red c_white"
                     placeholder="Fazer Login"
                 >
+                <!--
                 <?php if($exibir){
                     switch ($exibir){
                         case 2:
@@ -93,7 +94,7 @@ if (isset($_POST["btn-login"])){
                             break;
                         }
                     }
-                 ?>
+                 ?>-->
             </form>
             <a href="#" class="c_red">Não é assinante? Clique aqui</a>
             <a href="#" class="c_red">Acesse os termos uso</a>
@@ -101,3 +102,4 @@ if (isset($_POST["btn-login"])){
     </main>
     <script src="./Scripts/PreventDefault.js"></script>
 </body>
+</html>
