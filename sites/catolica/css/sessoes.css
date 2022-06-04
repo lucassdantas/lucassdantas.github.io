@@ -1,0 +1,651 @@
+#principal{
+    background-image: url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-192bb591f7d989b538f87b8cb98fdcb6.webp");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50%;
+
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:90px 15% 4% ;
+    text-align:center;
+}
+#livros-div{
+    width:100%;
+    height:300px;
+    padding:50px 0 0 0;
+}
+#livros-div img{
+    width:100%;
+}
+#conjunto-div{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.conjunto {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    background-color:#557065;
+    border:2px solid #BBC6C1;
+    border-radius:8px;
+    height:50px;
+    width:100%;
+
+    font-size:0.6em;
+    font-weight:bold;
+    margin: 60px 0;
+}
+.conjunto div:first-child{
+    width:50px;
+    height:100%;
+    background-color: white;
+    padding:6px;
+}
+.conjunto span{
+    margin: 0 5px;
+}
+.box-icon{
+    width:100%;
+    height:100%;
+}
+#conjunto-texto{
+    font-size:1em;
+    text-align:center;
+    width:100%;
+}
+
+#principal div h2{
+    font-size:2em;
+    margin:0 0 50px 0 ;
+}
+#principal div p{
+    font-size:1em;
+    font-weight:bold;
+    margin:0 0 40px 0;
+    font-weight:400;
+}
+#principal div #botao{
+    font-size:1em;
+    width:100%;
+}
+
+
+/*SECÇÃO 02*/
+#nossos_numeros{
+    padding:7px 0;
+}
+#s2_fundo{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    padding:5% 2%;
+}
+#s2_fundo h2{
+    font-size:2em;
+    text-align:left;
+    font-weight:200px;
+}
+.red_line_div{
+    width:80%;
+}
+.red_line{
+    width:100%;
+    height:1px;
+    margin:30px 0;
+
+    
+}
+#numbers{
+    display:flex;
+    flex-direction:row;
+}
+#numbers h3{
+    font-size:1.5em;
+    font-weight:400;
+    margin:0 0 4px 0;
+}
+
+
+
+/*SECÇÃO 03*/
+    #about{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        padding:5% 50px;
+        text-align:center;
+    }
+    #about .red_line_div{
+        width:100%;
+        padding:0 25%;
+        justify-content:center;
+        text-align:center;
+    }
+    #about .red_line{
+        height:2px;
+        margin:20px 0;
+    }
+    #about .div_title{
+        margin:0 2px;
+        width:100%;
+    }
+    #about h2{
+        text-align:center;
+        font-size:1.7em;
+        padding: 0 5%;
+        font-weight:500;
+    }
+    #about .video{
+        height:250px;
+        width:80%;
+        text-align:center;
+    }
+    #about iframe{
+        width:100%;
+        transform: scale(1.03);
+    }
+
+    
+/*SECÇÃO 04 e 05*/
+#how, .section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 5% 20%;
+    
+}
+.section div{
+    text-align:center;
+}
+.section .title_div{
+    margin:0 0 20px 0;
+}
+.section .col{
+    padding:0 5%;
+    margin:20px 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.section h4{
+    margin:0 0 10px 0;
+    font-size:1.3em;
+}
+.section h5{
+    font-size:1.5em;
+    font-weight:500;
+    margin-top:5px;
+}
+.section img{
+    width:80px;
+    margin:0 0 10px 0;
+}
+.section .img_subtitle{
+    font-size:1.3em;
+    padding:0 12%;
+    font-weight:500;
+    color:#424247;
+    margin:0 0 5px 0;
+}
+.section p{
+    font-size:1em;
+}
+.section .div_button{
+    margin:20px 0 20px;
+}
+
+/*SECÇÃO 05*/
+
+#how_subscribe .col{
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.2);
+    padding:10% 15%;
+}
+#how_subscribe img{
+    width:50px;
+}
+#how_subscribe .img_subtitle{
+    margin:10px 0;
+    padding:0;
+}
+#how_subscribe .div_button{
+    width:80%;
+}
+
+/*SECÇÃO 06*/
+#testemonials{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+#testemonials .title{
+    padding:0 5%;
+    font-weight:500;
+    text-align:Center;
+}
+#testemonials .red_line_div{
+    width:40%;
+}
+#testemonials .red_line{
+    margin:10px 0 30px;
+}
+#testemonials .caroussel{
+    width:100%;
+}
+#testemonials .caroussel img{
+    width:100%;
+}
+.testemonials_video{
+    margin:40px 0 0 0;
+}
+
+
+/*SECÇÃO 07*/
+    #leads{
+        background-image: url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-72599e87f1f1c7f0ba2b874a11237a48.webp");
+        padding:15%;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    #leads .title{
+        font-size:2em;
+        padding:0 8%;
+    }
+    #leads a{
+        text-decoration: underline;
+        font-weight:bold;
+        color:white;
+    }
+    #leads .div_button{
+        width:100%;
+        padding:20px 0;
+    }
+    #tertulia{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        padding:8% 10%;
+    }
+    #tertulia_logo{
+        width:120px;
+    }
+    
+    #tertulia .col, #tertulia .col02{
+        width:50%;
+        margin:0 20px;
+    }
+    #tertulia .col02{
+        text-align:center;
+        font-weight:bold;
+
+    }
+    #tertulia .div_button{
+        padding:0 30px;
+    }
+    #tertulia p{
+        font-size:0.7em;
+    }
+    .icon-div{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        margin:0px 0 10px 0;
+        
+    }
+    .icon-div img{
+        width:30px;
+        padding:0;
+        margin:0 8px;
+    }
+    #tertulia .btn_vazado:hover{
+        background-color: white;
+        color:#143C4D;
+    }
+
+    footer {
+        padding:8% 15%;
+        line-height:1.3em;
+        overflow: hidden;
+    }
+    footer #footer_logo{
+        width:160px;
+    }
+    #info_div p {
+        margin:20px 0;
+    }
+    footer #info_div .suave:nth-child(2){
+        margin-bottom:20px;
+    }
+    footer h4{
+        margin:30px 0 5px 0;
+        font-weight:400;
+    }
+    footer ul{
+        line-height:1.8em;
+        font-weight:300;
+
+    }
+    footer a:hover{
+        text-decoration:underline;
+        transition:0.5s;
+    }
+    .final_footer{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+
+        text-align:center;
+        width:100%;
+    }
+    .white_line_div{
+        margin:40px 0;
+        padding:0;
+        width:100%;
+    }
+    .final_footer #politicas{
+        text-decoration:underline;
+        font-weight:400;
+        margin-bottom:30px;
+    }
+    #footer_info{
+        font-size:15px;
+        margin-bottom:10px;
+    }
+    #GloriaDominum {
+        font-size:3em;
+        line-height:80px;
+        color:rgba(255,255,255,0.25);
+    }
+/*Responsive*/
+@media (min-width:900px){
+    .section{
+        flex-direction:row-reverse;
+        flex-wrap:wrap;
+    }
+    #principal{
+        flex-direction:row-reverse;
+        padding:2% 2%;
+    }
+    .low-left{
+        width:50%;
+    }
+
+    #conjunto-div{
+        justify-content: flex-start;
+        width:350px;
+    }
+    .conjunto span{
+        font-size:1.5em;
+        font-weight:400px;
+    }
+    .low-left h2, .low-left p:nth-child(3){
+        text-align:left;
+    }
+ 
+    #livros-div{
+        width:100%;
+        text-align:center;
+        padding:0% 0% 4% 4%;
+    }
+
+    #livros-div img{
+        width:80%;
+        max-width:900px;
+        
+    }
+    #principal div h2{
+        font-size:2.5em;
+    }
+
+    /*2° secção*/
+    
+    #nossos_numeros{
+        width:100%;
+    }
+    #s2_fundo{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:unset;
+        text-align:unset;
+        padding:20px 10%;
+        font-size:1em;
+        height:250px;
+    }
+    #numbers{
+        width:60%;
+        
+    }
+    #s2_fundo h3{
+        font-weight:500;
+        font-size:2.2em;
+        margin:0;
+    }
+    #s2_fundo h4{
+        font-size:1em;
+        font-weight:400;
+    }
+    #numbers .col{
+        margin-right:10px;
+        text-align:right;
+        align-items:flex-end;
+    }
+    #s2_fundo #titulo{
+        width:5%;
+        margin:50px;
+    }
+    #s2_fundo #titulo .title{
+        font-size:1.5em;
+        font-weight:500;
+    }
+    #s2_fundo .red_line_div{
+        width:20%;
+        margin:0 5%;
+    }
+    #s2_fundo .red_line{
+        width:100%;
+    }
+    /*3 secção*/
+    #about{
+        flex-direction:row-reverse;
+        align-items:center;
+        flex-wrap:nowrap;
+        padding:80px 10px;
+        height:100%;
+    }
+    #about .div_title{
+        text-align:center;
+        width: 30%;
+        font-size:1.2em;
+        
+    }
+    #about .div_title .title{
+        padding:0 10% 0 0;
+        text-align:left;
+    }
+    #about .red_line_div{
+        justify-content:left;
+        padding:0;
+        width:100%;
+        margin:0;
+    }
+    #about .red_line{
+        width:70%;
+    }
+    #about .video-about{
+        width:50%;
+        border-radius:8px;
+        overflow:hidden;
+        transform: scale(1.6, 1.5);
+        
+    }
+  
+    #about .video-about iframe{
+        margin:0;
+    }
+    #about .title{
+        font-size:2em;
+    }
+
+
+    /*4 SECÇÃO*/
+    #how{
+        flex-direction:row;
+        flex-wrap:wrap;
+        padding: 5% 15%;
+
+    }
+    #how .title_div{
+        width:100%;
+    }
+    #how .title_div h5{
+        font-size:2em;
+    }
+    #how .row{
+        width:100%;
+        display:flex;
+        justify-content:space-around;
+        align-items:flex-start;
+        margin:0 0 40px 0;
+    }
+    #how .col{
+        width:33.3%;
+        padding:0px;
+        font-size:14px;
+        margin:0 20px;
+    }
+    #how img{
+        transform: scale(0.9);
+    }
+    #how .col .img_subtitle{
+        padding:0 30px;
+        margin: 0 0 10px 0;
+    }
+    #how .div_button{
+        width:100%;
+        padding:0% 30%;
+    }
+    #how .btn{
+        padding: 5% 5%;
+    }
+
+    /*5 SECÇÃO*/
+ 
+    #how_subscribe{
+        flex-direction:row;
+        padding: 5% 7%;
+    }
+    #how_subscribe .title_div h5{
+        font-size:48px;
+        padding:0 50px;
+    }
+    #how_subscribe .row{
+        width:100%;
+        display:flex;
+        justify-content:space-around;
+        align-items:flex-start;
+        margin:20px;
+    }
+    #how_subscribe .col{
+        margin: 0 15px;
+        padding: 50px 0px;
+    }
+
+    #how_subscribe .img_subtitle{
+        padding:0;
+        font-size:1em;
+        margin:0 0 20px;
+    }
+    #how_subscribe p{
+        margin:0 30px;
+    }
+    #how_subscribe .div_button{
+        padding:0 25%;
+    }
+    #how_subscribe .btn{
+        padding:20px 10px;
+    }
+
+
+
+    /*TESTEMONIALS*/
+    #testemonials{
+        flex-direction:row;
+        padding:60px 10%;
+    }
+    #testemonials .title_div{
+        width:100%;
+    }
+    #testemonials .title{
+        font-size:48px;
+        padding:0 20%;
+    }
+    #testemonials .red_line_div{
+        width:100%;
+        padding:0 0% 0 35%;
+        
+    }
+    #testemonials .red_line{
+        width:50%;
+    }
+    .testemonials_video{
+        flex-direction:row;
+        flex-wrap:wrap;
+        padding: 5% 0%;
+        width:100%;
+    }
+
+    #testemonials .caroussel{
+        width:50%;
+    }
+    #testemonials_video{
+        padding:0;
+    }
+    .testemonials_video .video{
+        width:30%;
+        margin: 0 5px;
+    }
+    /*LEADS*/
+    #leads{
+        padding:60px 10%;
+        background-image: url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-8a946bbcd0707c867af3361049c4f3a0.webp");
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    /*tertulia*/
+    #tertulia{
+        padding:20px 8%;
+    }
+    footer{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        padding:5% 5%;
+    }
+    #info_div{
+        width:20%;
+        margin-right:30%;
+    }
+    .footer_info{
+        display:flex;
+        width:50%;
+        justify-content:space-between;
+    }
+
+}
