@@ -1,0 +1,58 @@
+.c_red{
+    color:#FF4D4D
+}
+.c_white{
+    color:white;
+}
+.red{
+    background-color: #FF4D4D;
+}
+.black{
+    background-color: black;
+}
+.c_black{
+    color:black;
+}
+.little_black{
+    background-color:#212121;
+}
+
+.orange{
+    background-color:rgb(255,107,0);
+}
+.orange:hover{
+    background-color: #C95400;
+
+}
+.green{
+   background-color:rgb(0,190,92);
+}
+
+.green:hover{
+    background-color:#006D35;
+}
+
+.white{
+    background-color: white;
+    border-color:white;
+}
+
+.blue{
+    background-color: rgb(0,151,255);
+}
+.dark_blue{
+    background-color:#143C4D;
+}
+.blue:hover{
+    background-color:#0060a2;
+}
+
+.little_pink{
+    background-color: #FFF6F6;
+}
+.suave{
+    opacity:0.6;
+}
+.muito_suave{
+    color:rgba(255,255,255, 0.25);
+}

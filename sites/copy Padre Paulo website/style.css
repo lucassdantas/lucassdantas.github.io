@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+body{
+    font-family:"Lato", sans-serif;
+    overflow-x:hidden;
+}
+li{
+    list-style:none;
+
+}
+a{
+    text-decoration:none;
+    color:inherit;
+
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    width:100vw;
+    height:90px;
+
+    background-color: #000000;
+    color:#CCCCCC;
+
+}
+
+
+#side-menu{
+    position:absolute;
+    background-color: #191818;
+    top:90px;
+    
+    transition: 1s;
+    
+    overflow-y:scroll;
+    
+   
+}
+
+.hide{
+    margin-left:-100%; 
+    transition:1s;
+    
+}
+.title{
+    text-align:center;
+    
+}
+.title-div{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    text-align:center;
+   
+  
+    height:150px;
+
+}
+#account-settings-div{
+     margin:0 5vw 10vh 5vw  ;
+}
+.account-settings, .nav-list{
+    color:orange;
+    font-size:25px;
+    font-weight:bold;  
+    margin: 5vh 0;
+    letter-spacing:1px;
+}
+
+.nav-list{
+    color:#cccccc;
+    padding:5vh 5vw;
+    border-width:1px 0 0px 0;
+    border-color:rgb(59, 59, 59);
+    border-style:solid;
+    margin:0;
+    
+
+}
+.nav-active{
+    
+    
+    border-width: 1px 0 0px 4px;
+    border-style:solid;
+    border-left-color: orange;
+
+    
+    
+}
+#copyright{
+    margin:30px 0;
+    padding:2%;
+    font-weight:500;
+    
+}
+#copyright a{
+    text-decoration:underline;
+}
+
+.responsive-icon{
+    position:absolute;
+    left:2%;
+
+    cursor:pointer;
+}
+.bar{    
+    border-width:1px;
+    border-style:solid;
+    border-color:#cccccc;
+    border-radius:10px;
+    margin:10px;
+
+    width:35px;
+}
+#div-logo{
+    position:relative;
+    left:45%;
+    
+}
+#logo{
+    width:50px;
+}
+
+#account-menu{
+    display:flex;
+    position:relative;
+    width:50%;
+    left:61%;
+    
+    align-items:center;
+}
+#account-list{
+    display:flex;
+    width:45%;
+    font-weight: bold;;
+    
+}
+#account-list li{   
+    font-size:20px;
+}
+
+#second-li{
+    margin:0 0 0 10%;
+}
+
+#account-icons{
+    display:flex;
+}
+#notification-icon, #search-icon{
+    width:50px;
+    
+}
+#notification-icon{
+    margin:0 11% 0 0;
+}
+
+
+
+@media (max-width:1300px) {
+    #account-menu{
+        left:82vw;
+     
+    }
+    #notification-icon{
+        margin:0 1vw 0 0;
+    }
+    #account-list{
+        display:none;
+        visibility:hidden;
+    }
+}
+
+@media (max-width:855px) {
+    #account-menu{
+        left:60vw;
+        padding:0 2vw 0 0;
+    }
+    #notification-icon, #search-icon{
+        margin-right:3vw;
+    }
+}
+
+
+

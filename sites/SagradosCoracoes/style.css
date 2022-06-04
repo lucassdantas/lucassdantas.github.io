@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+/*GLOBAL*/
+html{
+    overflow-x:hidden;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+
+/*MAIN HEADER HEADER*/
+body{
+    height:100vh;
+    font-family: 'Lato', sans-serif;
+    overflow-x:hidden;
+}
+
+nav{
+    background-color: rgb(16, 203, 236);
+    display:flex;
+
+    justify-content:space-around;
+    align-items:center;
+
+    
+
+    height:80px;
+    width:100%;
+}
+
+#logoDIV{  
+    padding:0 0 0 2%;
+    height:70px;
+    width:10%; 
+}
+
+#logo{
+    width:80px;
+    height:70px;
+}
+
+#navigationDIV{
+    padding:0 2% 0 10%;
+    width:90%;
+}
+
+nav ul{
+    float:right;
+    margin:0 0 0 0;
+    padding:0 1% 0 0;
+}
+
+nav ul li{
+
+    display:inline-block;
+    color:white;
+    letter-spacing:1px;
+    line-height: 80px;
+    font-size:13px;
+    font-weight: bold;
+    text-transform:uppercase;
+ 
+    margin:0 7px;
+    padding:7px 10px;
+    
+
+    border-radius:3px;
+   
+
+    
+}
+
+nav a{
+    color:white;
+    border:1px solid transparent;
+    padding:7px 10px; /*padding para a borda transparente acima*/
+}
+
+a.active, a:hover{
+    border:1px solid white;
+    transition: .5s;
+    color:white;
+}
+
+#responsiveICON{
+    width:90px;
+
+    float:right;
+    margin:0 40px 0 0;
+
+    cursor:pointer;
+    display:none;
+    visibility: hidden;
+}
+/*
+.hidden{
+    display:none;
+    visibility:hidden;
+}
+
+*/
+
+
+
+/*MAIN CONTAIN*/
+.title{
+    text-align:center;
+    margin:5% 0 40px 0;
+}
+
+#JesusEMaria{
+    text-align:center;
+    
+    
+}
+
+
+#JesusEMaria{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    text-align:center;
+    justify-content:space-around;
+}
+
+#imgJesus, #imgMaria{
+    width:30vw;
+    height:45vh;
+    max-height:210px;
+    max-width:250px;
+    min-height:50px;
+    min-width:80px;
+
+    margin:10% 0;
+
+    border-radius:25px;
+}
+
+#divJesus{
+
+    text-align:center;
+    width:40%;
+    margin: 0 0 0 0;
+
+    
+}
+#divMaria{
+    
+    text-align:center;
+    width:40%;
+    margin: 0 0px 0 0px;
+}
+
+/*FORM*/
+
+.separator{
+    margin:20px 0;
+    width:100%;
+    height:7px;
+    background-color:purple;
+}
+
+#form{
+    
+    display:flex;
+    justify-content:space-around;
+    padding:3px;
+    width: 100%;
+    
+}
+#divForm{
+    width:40%;
+}
+
+#imgMariaForm{
+    height:50vh;
+    max-height:800px;
+    border-radius:10px;
+}
+
+/*FOOTER FOOTER FOOTER*/
+footer{
+    background-color: black;
+    color:white;
+    text-align:center;
+    line-height:40px;
+}
+
+
+/*RESPONSIVE RESPONSIVE RESPONSIVE*/
+@media (max-width: 900px)
+{   
+    
+ 
+   
+    nav{
+       
+        display:inline-block;
+        align-items:center;
+        position:fixed;
+        text-align:center;
+
+        width:100%;
+        height:90px;
+
+        top:0vh;
+        
+    }
+
+
+ 
+    nav ul{
+        display:flex;
+        flex-direction:column;
+        position:fixed;
+
+        height:100%;
+        width:45%;
+       
+        
+
+        opacity:10;
+
+        top:90px;
+        left:55%;
+        margin-left:100%;
+        
+        
+
+        background-color: gray;
+        transition: 1s; 
+       
+        
+
+       
+        
+    }
+    
+    .show {
+        margin-left:0;
+        
+        opacity:0.97;
+
+        transition:1s;
+        
+        
+    }
+
+    nav li{
+        letter-spacing:1px;
+     
+        font-size:9px;
+        text-transform:uppercase;
+        border-radius:3px;
+        transition:1s;
+    }
+
+    #logoDIV{
+        padding:8px 0 0 0;
+        position:absolute;
+        
+    }
+   
+    #responsiveICON{
+        cursor:pointer;
+        display:block;
+        visibility:visible;
+    }
+   
+   
+   #title{
+        margin:30% 0 5% 0;
+    }
+    #form{
+    display:block;
+  
+    
+    padding:0 0 0 40%;
+    
+    }
+
+    #JesusEMaria{
+        
+        display:flex;
+        flex-direction:column;
+        
+        padding: 0 0 0 0%;     
+    }
+   
+    #divJesus, #divMaria{
+        margin:10px;
+    }
+    #imgJesus, #imgMaria{
+        width:30vw;
+        height:30vh;
+        min-width:200px;
+        min-height:30px;
+
+    }
+}
+
+@media (max-width: 500px)
+{   
+    nav ul li{
+        font-size:10px;
+        line-height:40px;
+        font-weight:bold;
+    }
+    a.active{
+        margin:0;
+        padding:2px;
+        border-width:1px;
+        transition:0s;
+    }
+
+}
+
+@media (max-width: 420px)
+{   
+    nav ul li{
+        font-size:15px;
+    }
+
+    nav ul{
+        width:100%;
+        left:0px;
+    }
+}
