@@ -13,10 +13,11 @@ main section{
 }
 .linha{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
     width:80vw;
     flex-wrap:wrap;
+    margin: 50px 0;
 }
 
 .linha div{
