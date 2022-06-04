@@ -3,6 +3,9 @@
     margin:0;
     padding:0;
 }
+header{
+    text-align:center;
+}
 main section{
     display:flex;
     align-items:center;
@@ -12,10 +15,15 @@ main section{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    width:80%;
+    width:60%;
+    flex-wrap:wrap;
 }
 
 
 .div_title{
     text-align:center;
+    margin-bottom:50px;
+}
+.logo{
+    width:150px;
 }
