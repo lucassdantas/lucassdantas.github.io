@@ -22,10 +22,15 @@ main section{
 
 .linha div{
     margin: 20px 0;
+    width:50%;
+    text-align:center;
 }
 .div_title{
     text-align:center;
     margin-bottom:50px;
+}
+.btn-large{
+    width:80%;
 }
 .logo{
     width:150px;
@@ -35,5 +40,9 @@ main section{
     .linha{
         justify-content:center;
         flex-direction:column;
+        
+    }
+    .linha div{
+        width:100%;
     }
 }
