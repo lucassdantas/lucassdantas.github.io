@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+:root{
+    --bk-color: rgb(3, 152, 211);
+    --bk-color-hover: rgb(0, 162, 255);
+    --bk-color-active: rgb(0, 153, 255);
+}
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+/*GENERAL GENERAL GENERAL GENERAL GENERAL*/
+
+body{
+    height:100%;
+    width:100%;
+    font-family: 'Lato', sans-serif;
+}
+
+/*MAIN CONTAIN MAIN CONTAIN MAIN CONTAIN*/
+
+#DivTitle{
+    margin: 20px 0 10vh 0;
+    padding:0 2.5%;
+    font-size:20px;
+    width:100vw;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+main{
+    text-transform: uppercase;
+    text-align:center;
+}
+
+#DataArea{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin: 5vh 0;
+
+}
+#DataIn, #DataOut{
+    margin: 0 2%;
+    
+
+}
+#lblText, #lblAnswer{
+    color:black;
+    font-weight:bold;
+    margin:3vh  0 1.5vh 0;
+    display:block;
+}
+
+#Text, #Answer{
+    resize:none;
+
+    width:30vw; 
+    height:30vh;
+    min-width:300px;
+
+    border-color: var(--bk-color);
+    border-width:1px;
+    border-radius:8px;
+  
+
+
+    
+   
+}
+#Text:hover{
+    outline-color:var(--bk-color-hover);
+ 
+}
+#Answer:hover{
+    outline-color:var(--bk-color-hover);
+  
+}
+#Text:focus{
+    outline-color:var(--bk-color-active);
+    border-width:2px;
+}
+#Answer:focus{
+    outline-color:var(--bk-color-active);
+    border-width:2px;
+}
+#DivAdvise{
+     margin: 0 0 10% 0;
+     font-weight:bold;
+ }
+.hidden{
+    visibility:hidden;
+    display:none;
+}
+
+#Button{
+    
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    
+    padding:15px;
+
+    background-color: var(--bk-color);
+
+    border-radius:25px;
+    border-style:solid;
+    border-width:2px;
+    border-color:rgba(27, 27, 27, 0.247);
+
+    cursor:pointer;
+}
+#Button:hover{
+    background-color:var(--bk-color-hover);
+}
+
+#Button:active{
+    background-color: var(--bk-color-active);
+}
+
+
+/*RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE*/
+
+@media (max-width:500px) {
+    #DataArea{
+        display:block;
+        flex-wrap:wrap;
+        
+        justify-content:center;
+        margin: 5vh 10vw 5vh 10vw;
+    }    
+
+    #lblText, #lblAnswer{
+        color:black;
+        font-weight:bold;
+        margin:5vh 0 1vh 0;
+        display:block;
+        
+        }
+    #Text, #Answer{
+        resize:none;
+        
+        width:30vw; 
+        height:40vh;
+    }
+            
+        
+}
+
+
+/*FOOTER FOOTER FOOTER FOOTER FOOTER*/
+
+footer{
+    display:grid;
+    justify-content:center;
+    text-align:center;
+    
+    background-color:black;
+    height:30%;
+    width:100%;
+
+    margin:15.5vh 0 0 0;
+    
+}
+#FooterText{
+    color:rgba(255, 255, 255, 0.877);
+}
+a {
+    text-decoration:none;
+    color:var(--bk-color);
+}
+a:hover{
+    color:var(--bk-color-hover);
+}
