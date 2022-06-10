@@ -1,3 +1,4 @@
+//Interactivity for button
 let navButton = document.querySelector("#responsiveICON")
 function ShowBar(){
     let navLink = document.querySelector("#navigationList").classList
