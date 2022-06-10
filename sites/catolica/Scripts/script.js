@@ -1,7 +1,7 @@
 let navButton = document.querySelector("#cellButton")
 let cellFundo = document.querySelector(".cell_fundo")
 
-
+//interactivity for hamburguer button
 function Clique(){
     let cellLogin = document.querySelector("#login_li").classList
     let cellMenu = document.querySelector("#nav_menu").classList
