@@ -4,4 +4,5 @@ botao.addEventListener("click", function(){
     let resposta = document.querySelector("#Answer")
     let formatacao = text.replace(/\n/g, ", ")
     resposta.value=(formatacao)
+    console.log("formatacao")
 })
