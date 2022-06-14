@@ -7,17 +7,54 @@
     <link rel="icon" type="image/x-icon" href="./Images/logo icone.png">
     <!--MATERIALIZE-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <!--ICONS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <!--Custom CSS-->
-
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfólio</title>
 </head>
 <body>
     <header>
-        <div class="div_logo">
-            <img class="logo" src="https://lucassdantas.github.io/Images/LogoLucasDantas.png" alt="Logo Lucas Dantas">
-        </div>
+        <ul id="menudropdown" class="dropdown-content">
+            <li><a href="#!">Cronômetro</a></li>
+            <li><a href="#!">Character replacer</a></li>
+            <li><a href="#!">Simulador de transação</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper blue">
+                <a 
+                href="https://lucassdantas.github.io" class="brand-logo">
+                    <img class="logo" src="https://lucassdantas.github.io/Images/LogoLucasDantas.png" alt="Logo Lucas Dantas">
+                </a>
+                <a 
+                href="#" 
+                data-target="mobile-menu" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#experiencias">Experiências</a></li>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+                <!--CELLPHONE MENU-->
+                <ul class="sidenav" id="mobile-menu">
+                    <li>
+                        <div class="user-view">
+                            <div 
+                            href="https://lucassdantas.github.io">
+                                <img class="logo" src="https://lucassdantas.github.io/Images/LogoLucasDantas.png" alt="Logo Lucas Dantas">
+                        </div>
+                        </div>
+                        
+                    </li>
+                    <li><a href="#">Experiências</a></li>
+                    <li><a href="#!">Sobre Mim</a></li>
+                    <li><a href="#!">Sites</a></li>
+                    <li><a class="dropdown-trigger" data-target="menudropdown" href="#!">Programas</a></li>       
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <section>
@@ -25,6 +62,25 @@
                 <h1>Portfólio Lucas Dantas</h1>
                 <p>Em construção</p>
             </div>
+        </section>
+        <section name="experiencias" id="experiencias">
+            <h2>Experiências</h2>
+            <h3 class="subtitle">Estágio em agência de marketing digital</h3>
+            <small>12/2021 - atualmente</small>
+            <ul>
+                <li>Desenvolvimento, design, manutenção e exportação de <strong>landing pages</strong> e <strong>E-commerce</strong> com <strong>WordPress.</strong></li>
+                <li>Atendimento e suporte ao cliente.</li>
+                <li>Edição de fotos e criação de cartões digitais com Canva.</li>
+            </ul>
+            <h3 class="subtitle">Autônomo</h3>
+            <small>2017 - atualmente</small>
+            <ul>
+                <li>Edição de fotos e vídeos com Photoshop, adobe premiere, kdenlive e canva.</li>
+                <li>Manutenção de computadores</li>
+            </ul>
+        </section>
+        <section name="projetos" id="projetos">
+            <h2>Projetos</h2>
             <div class="linha">
                 <div>
                     <a href="./softwares/Sistemabancario/index.html" target="_blank" class="wafe-effect wafes-light btn-large blue">Sistema Bancário (Dev.Finance)</a>
@@ -42,6 +98,12 @@
                 </div>
             </div>
         </section>
+        <section name="sobre" id="sobre" class="container">
+            <h2>Sobre mim</h2>
+            <p>Me chamo Lucas Dantas, nasci em 07/01/2002 e desde os 15 anos trabalho com pequenos reparos em computadores. Mexo no computador desde a infância e aos 12 anos completei um curso de HTML na <a href="https://www.codecademy.com" target="_blank" rel="external">Codecademy</a> e parei de estudar após começar a aprender PHP.</p>
+            <p>Retornei aos estudos pois meu primeiro cliente na área de desenvolvimento de sites desejou uma calculadora de VET e TMB em seu site, mas não encontrei nenhum plugin para isso e, então, decidi estudar JavaScript e criar. Assim, por volta de outubro de 2021, recomecei os estudos em HTML e CSS e, logo em seguida, JavaScript. Com estas linguagens, desenvolvi meu primeiro programa e atendi o desejo do meu cliente.</p>
+        </section>
+        
             
     </main>
     <footer>

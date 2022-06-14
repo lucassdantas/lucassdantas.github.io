@@ -1,15 +1,16 @@
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+html{
+    scroll-behavior: smooth;
 }
-header{
-    text-align:center;
+nav div{
+    padding:0 20px;
 }
 main section{
     display:flex;
     align-items:center;
     flex-direction: column;
+}
+.subtitle{
+    font-size:2rem;
 }
 .linha{
     display:flex;
@@ -33,7 +34,7 @@ main section{
     width:80%;
 }
 .logo{
-    width:150px;
+    width:70px;
 }
 
 @media (max-width:1024px){
@@ -44,5 +45,8 @@ main section{
     }
     .linha div{
         width:100%;
+    }
+    .logo{
+        width:55px;
     }
 }
