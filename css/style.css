@@ -67,7 +67,7 @@ main section{
         width:100%;
     }
 }
-@media (max-width:400px){
+@media (max-width:465px){
     .btn-large{
         font-size:0.8rem;
         padding:0;
