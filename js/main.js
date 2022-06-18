@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   let elems = document.querySelectorAll('.tabs');
   let instances = M.Tabs.init(elems, {
-    swipeable:true
+    swipeable:false
   })
 })

@@ -6,8 +6,13 @@ html{
 small{
     font-weight:bold;
 }
+.active:focus{
+    background-color:rgba(33,150,243,0.1)!important;
 
-
+}
+.indicator{
+    background-color: #2546ff!important;
+}
 main section{
     display:flex;
     flex-direction: column;
