@@ -2,12 +2,11 @@ html{
     scroll-behavior: smooth;
  
 }
-
 small{
     font-weight:bold;
 }
-.active:focus{
-    background-color:rgba(33,150,243,0.1)!important;
+a:focus, .active:focus{
+    background-color:rgba(119, 194, 255, 0.1)!important;
 
 }
 .indicator{
@@ -17,29 +16,18 @@ main section{
     display:flex;
     flex-direction: column;
 }
+.title{
+    margin:1em 0;
+}
 .subtitle{
     font-size:1.5rem;
-}
-.linha{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    width:80vw;
-    flex-wrap:wrap;
-    margin: 50px 0;
-}
-
-.linha div{
-    margin: 20px 0;
-    width:50%;
-    text-align:center;
 }
 .div_title{
     text-align:center;
     margin-bottom:50px;
 }
 .btn-large{
-    width:80%;
+    width:100%;
 }
 .logo{
     width:70px;
