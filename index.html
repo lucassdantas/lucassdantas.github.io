@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,177 +10,147 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--ICONS-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+
     <!--Custom CSS-->
     <link rel="stylesheet" href="./css/style.css">
-    <title>Portfólio</title>
+    <title>Portfólio LD</title>
 </head>
+
 <body>
-    <!--
+    <div class="row">
         <header>
-            <ul id="menudropdown" class="dropdown-content">
-                <li><a href="#!">Cronômetro</a></li>
-                <li><a href="#!">Character replacer</a></li>
-                <li><a href="#!">Simulador de transação</a></li>
-            </ul>
-            <nav>
-                <div class="nav-wrapper blue">
-                    <a 
-                    href="https://lucassdantas.github.io" class="brand-logo">
-                        <img class="logo" src="https://lucassdantas.github.io/Images/LogoLucasDantas.png" alt="Logo Lucas Dantas">
-                    </a>
-                    <a 
-                    href="#" 
-                    data-target="mobile-menu" class="sidenav-trigger">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#experiencias">Experiências</a></li>
-                        <li><a href="#sobre">Sobre Mim</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                    </ul>
-                
-                    <ul class="sidenav" id="mobile-menu">
-                        <li>
-                            <div class="user-view">
-                                <div 
-                                href="https://lucassdantas.github.io">
-                                    <img class="logo" src="https://lucassdantas.github.io/Images/LogoLucasDantas.png" alt="Logo Lucas Dantas">
-                            </div>
-                            </div>
-                            
+            <!--Abas Materialize-->
+            <div class="navbar-fixed">
+                <nav class="blue">
+                    <ul class="tabs">
+                        <li class="tab col s3">
+                            <a class="blue-text" href="#aba1">Experiência</a>
                         </li>
-                        <li><a href="#experiencias">Experiências</a></li>
-                        <li><a href="#sobre">Sobre Mim</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
+                        <li class="tab col s2">
+                            <a class="blue-text" href="#aba2">Projetos</a>
+                        </li>
+                        <li class="tab col s2">
+                            <a class="blue-text" href="#aba3">Sobre mim</a>
+                        </li>
+                        <li class="tab col s2">
+                            <a class="blue-text" href="#aba4">Escolaridade</a>
+                        </li>
+                        <li class="tab col s3">
+                            <a href="#aba5" class="blue-text">Contato</a>
+                        </li>
                     </ul>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
-    -->
-        <div class="row">
-            <header>
-                <!--Abas Materialize-->
-                <div class="col s12">
-                    <div class="navbar-fixed">
-                        <nav class="blue">
-                            <ul class="tabs">
-                                <li class="tab col s3">
-                                    <a class="blue-text" href="#aba1">Experiência</a>
-                                </li>
-                                <li class="tab col s2">
-                                    <a class="blue-text" href="#aba2">Projetos</a>
-                                </li>
-                                <li class="tab col s2">
-                                    <a class="blue-text" href="#aba3">Sobre mim</a>
-                                </li>
-                                <li class="tab col s2">
-                                    <a class="blue-text" href="#aba4">Escolaridade</a>
-                                </li>
-                                <li class="tab col s3">
-                                    <a href="#aba5" class="blue-text">Contato</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+        <main>
+            <section class="container">
+                <div class="div_title">
+                    <h1>Portfólio Lucas Dantas</h1>
+                    <p>Em construção</p>
                 </div>
-            </header>
-            <main>
-                <section class="container" >
-                    <div class="div_title">
-                        <h1>Portfólio Lucas Dantas</h1>
-                        <p>Em construção</p>
+            </section>
+            <!--conteudo das abas-->
+            <div id="aba1" class="col s12">
+                <section class="container" name="experiencias" id="experiencias">
+                    <h2>Experiências</h2>
+                    <h3 class="subtitle">Desenvolvedor WordPress (Estágio)</h3>
+                    <small>12/2021 - 06/06/2022</small>
+                    <ul>
+                        <li>Fiz o desenvolvimento, design responsivo, manutenção, otimização e exportação de
+                            <strong>landing pages</strong> e <strong>E-commerce</strong> com <strong>WordPress.</strong>
+                        </li>
+                        <li>Construi imagens e cartões digitais com Canva.</li>
+                        <li>Atendi e dei e suporte a clientes por WhatsApp e videochamada.</li>
+                    </ul>
+                    <h3 class="subtitle">Autônomo</h3>
+                    <small>2017 - atualmente</small>
+                    <ul>
+                        <li>Serviços de Design gráfico (panfletos, cartões de visita)</li>
+                        <li>Pequenos reparos em computadores</li>
+                    </ul>
+                </section>
+            </div>
+            <div id="aba2" class="col s12">
+                <section class="container" name="projetos" id="projetos">
+                    <h2>Projetos</h2>
+                    <div class="linha">
+                        <div>
+                            <a href="./softwares/Sistemabancario/index.html" target="_blank"
+                                class="wafe-effect wafes-light btn-large blue">Sistema Bancário (Dev.Finance)</a>
+                        </div>
+                        <div>
+                            <a href="./softwares/BreakLineReplacer/index.html" target="_blank"
+                                class="wafe-effect wafes-light btn-large blue">New line replacer</a>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div>
+                            <a href="./sites/catolica/index.html" target="_blank"
+                                class="wave-effect waves-light btn-large blue">Cópia do site "Minha biblioteca
+                                católica"</a>
+                        </div>
+                        <div>
+                            <a href="./softwares/Exerciciorespiratorio/index.html" target="_blank"
+                                class="wave-effect waves-light btn-large blue">Cronômetro para exercício de canto
+                                lírico</a>
+                        </div>
                     </div>
                 </section>
-                <!--conteudo das abas-->
-                <div id="aba1" class="col s12">
-                    <section class="container" name="experiencias" id="experiencias">
-                        <h2>Experiências</h2>
-                        <h3 class="subtitle">Desenvolvedor WordPress (Estágio)</h3>
-                        <small>12/2021 - 06/06/2022</small>
-                        <ul>
-                            <li>Desenvolvimento, design responsivo, manutenção, otimização e exportação de <strong>landing pages</strong> e <strong>E-commerce</strong> com <strong>WordPress.</strong></li>
-                            <li>Atendimento e suporte ao cliente.</li>
-                            <li>Edição de fotos e criação de cartões digitais com Canva.</li>
-                        </ul>
-                        <h3 class="subtitle">Autônomo</h3>
-                        <small>2017 - atualmente</small>
-                        <ul>
-                            <li>Edição de fotos e vídeos com Photoshop, adobe premiere, kdenlive e canva.</li>
-                            <li>Manutenção de computadores</li>
-                        </ul>
-                    </section>
-                </div>
-                <div id="aba2" class="col s12">
-                    <section class="container" name="projetos" id="projetos">
-                        <h2>Projetos</h2>
-                        <div class="linha">
-                            <div>
-                                <a href="./softwares/Sistemabancario/index.html" target="_blank" class="wafe-effect wafes-light btn-large blue">Sistema Bancário (Dev.Finance)</a>
-                            </div>
-                            <div>
-                                <a href="./softwares/BreakLineReplacer/index.html" target="_blank" class="wafe-effect wafes-light btn-large blue">New line replacer</a>
-                            </div>
+            </div>
+            <div id="aba3" class="col s12">
+                <section class="container" name="sobre" id="sobre" class="container">
+                    <h2>Sobre mim</h2>
+                    <p>Me chamo Lucas Dantas, nasci em 07/01/2002 e desde os 15 anos trabalho com pequenos reparos em
+                        computadores. Mexo no computador desde a infância e aos 12 anos completei um curso de HTML na <a
+                            href="https://www.codecademy.com" target="_blank" rel="external">Codecademy</a></p>
+                    <p>Retornei aos estudos pois meu primeiro cliente na área de desenvolvimento de sites desejou uma
+                        calculadora de VET e TMB em seu site, mas não encontrei nenhum plugin para isso e, então, decidi
+                        estudar JavaScript e criar. Assim, por volta de outubro de 2021, recomecei os estudos em HTML e
+                        CSS e, logo em seguida, JavaScript. Com estas linguagens, desenvolvi meu primeiro programa e
+                        atendi o desejo do meu cliente.</p>
+                </section>
+            </div>
+            <div id="aba4" class="col s12">
+                <section class="container" name="escolaridade">
+                    <h2 class="subtitle" s>Escolaridade</h2>
+                    <div class="row">
+                        <div class="col s6">
+                            <p>Curso técnico em informática</p>
+                            <p>Instituição: Senac</p>
+                            <p>Duração: 06/2022 - 10/2023</p>
+
                         </div>
-                        <div class="linha">
-                            <div>
-                                <a href="./sites/catolica/index.html" target="_blank" class="wave-effect waves-light btn-large blue">Cópia do site "Minha biblioteca católica"</a>
-                            </div>
-                            <div>
-                                <a href="./softwares/Exerciciorespiratorio/index.html" target="_blank" class="wave-effect waves-light btn-large blue">Cronômetro para exercício de canto lírico</a>
-                            </div>
+                        <div class="col s6">
+                            <p>Ensino médio</p>
+                            <p>Instituição: Olinto da Gama Botelho</p>
+                            <p>Concluido em: 12/2019</p>
                         </div>
-                    </section>
-                </div>
-                <div id="aba3" class="col s12">
-                    <section class="container" name="sobre" id="sobre" class="container">
-                        <h2>Sobre mim</h2>
-                        <p>Me chamo Lucas Dantas, nasci em 07/01/2002 e desde os 15 anos trabalho com pequenos reparos em computadores. Mexo no computador desde a infância e aos 12 anos completei um curso de HTML na <a href="https://www.codecademy.com" target="_blank" rel="external">Codecademy</a></p>
-                        <p>Retornei aos estudos pois meu primeiro cliente na área de desenvolvimento de sites desejou uma calculadora de VET e TMB em seu site, mas não encontrei nenhum plugin para isso e, então, decidi estudar JavaScript e criar. Assim, por volta de outubro de 2021, recomecei os estudos em HTML e CSS e, logo em seguida, JavaScript. Com estas linguagens, desenvolvi meu primeiro programa e atendi o desejo do meu cliente.</p>
-                    </section>
-                </div>
-                <div id="aba4" class="col s12">
-                    <section class="container" name="escolaridade">
-                        <h2>Escolaridade</h2>
-                        <div class="row">
-                            <div class="col s6">
-                                <p>Curso técnico em informática</p>
-                                <p>Instituição: Senac</p>
-                                <p>Duração: 06/2022 - 10/2023</p>
-                                
-                            </div>
-                            <div class="col s6">
-                                <p>Ensino médio</p>
-                                <p>Instituição: Olinto da Gama Botelho</p>
-                                <p>Concluido em: 12/2019</p>
-                            </div>
+                    </div>
+                </section>
+            </div>
+            <div id="aba5" class="col s12">
+                <section class="container" name="contato">
+                    <div class="row">
+                        <div class="col s6">
+                            <h2 class="subtitle">Contato</h2>
+                            <p>Email:
+                                <a href="mailto:lucasdesousadantas@gmail.com">lucasdesousadantas@gmail.com</a>
+                            </p>
+                            <p>Tel:
+                                <a href="tel:5521983555919"> (21) 98355-5919</a>
+                            </p>
                         </div>
-                    </section>
-                </div>
-                <div id="aba5" class="col s12">     
-                    
-                        <section class="container" name="contato">
-                            <div class="row">
-                                <div class="col s6">
-                                    <h2>Contato</h2>
-                                    <p>Email:
-                                        <a href="mailto:lucasdesousadantas@gmail.com">lucasdesousadantas@gmail.com</a>
-                                    </p>
-                                    <p>Tel:
-                                        <a href="tel:5521983555919"> (21) 98355-5919</a>
-                                    </p>
-                                </div>
-                                <div class="col s6">
-                                    <h2>Endereço:</h2>
-                                    <p>Pilares, Rio de Janeiro - RJ</p>
-                                </div> 
-                            </div>
-                        </section>
-                      
-                </div>
-            </main>
-        </div>
+                        <div class="col s6">
+                            <h2 class="subtitle">Endereço:</h2>
+                            <p>Pilares, Rio de Janeiro - RJ</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
