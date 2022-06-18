@@ -1,21 +1,19 @@
 html{
     scroll-behavior: smooth;
+ 
 }
+
 small{
     font-weight:bold;
 }
-section{
-    text-align:left;
-}
-nav div{
-    padding:0 20px;
-}
+
+
 main section{
     display:flex;
     flex-direction: column;
 }
 .subtitle{
-    font-size:2rem;
+    font-size:1.5rem;
 }
 .linha{
     display:flex;
