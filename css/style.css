@@ -5,14 +5,13 @@ small{
     font-weight:bold;
 }
 section{
-    text-align:center;
+    text-align:left;
 }
 nav div{
     padding:0 20px;
 }
 main section{
     display:flex;
-    align-items:center;
     flex-direction: column;
 }
 .subtitle{
