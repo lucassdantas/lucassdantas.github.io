@@ -48,6 +48,21 @@ main section{
     .btn-large{
         width:100%;
     }
+    #mobile-demo{
+        flex-direction:column;
+        text-align:left;
+    }
+    #mobile-demo li{
+        margin-left:0;
+        left:0;
+        right:0;
+        width:100%;
+        text-align:left;
+    }
+    .sidenav-overlay{
+        display:none;
+        visibility:hidden;
+    }
 }
 
 @media (max-width:500px){

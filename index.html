@@ -20,9 +20,10 @@
     <div class="row">
         <header>
             <!--Abas Materialize-->
-            <div class="navbar-fixed">
+            <div id="menu" class="navbar-fixed">
                 <nav class="blue">
-                    <ul class="tabs">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="tabs hide-on-med-and-down">
                         <li class="tab col s3">
                             <a class="blue-text" href="#aba1">Experiência</a>
                         </li>
@@ -40,6 +41,26 @@
                         </li>
                     </ul>
                 </nav>
+                
+            
+                <ul class="tabs sidenav" id="mobile-demo">
+                     <li><a class="sidenav-close" href="#!"><i class="material-icons blue-text">closeroundedicon</i></a></li>
+                    <li class="tab col s3">
+                        <a class="blue-text" href="#aba1">Experiência</a>
+                    </li>
+                    <li class="tab col s2">
+                        <a class="blue-text" href="#aba2">Projetos</a>
+                    </li>
+                    <li class="tab col s2">
+                        <a class="blue-text" href="#aba3">Sobre mim</a>
+                    </li>
+                    <li class="tab col s2">
+                        <a class="blue-text" href="#aba4">Escolaridade</a>
+                    </li>
+                    <li class="tab col s3">
+                        <a href="#aba5" class="blue-text">Contato</a>
+                    </li>
+                </ul>
             </div>
         </header>
         <main>

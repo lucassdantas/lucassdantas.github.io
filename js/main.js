@@ -26,3 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     swipeable:false
   })
 })
+  //mobileMenu
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, {
+    
+  });
+});
