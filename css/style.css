@@ -30,7 +30,7 @@ main section{
     width:100%;
 }
 .logo{
-    width:100%;
+    width:80%;
 }
 .vertical{
     display:flex;
@@ -54,11 +54,17 @@ main section{
     padding:0;
 }
 .fixed{
-    
-    width:100%;
+    position:fixed;
+    width:16%;    
 }
 
+
 @media (max-width:1024px){
+    /*tiro o padrao do materialize*/
+    .tabs .tab {
+        -webkit-box-flex: 0; 
+        -webkit-flex-grow: 0;
+    }
     .linha{
         justify-content:center;
         flex-direction:column;
@@ -88,6 +94,7 @@ main section{
         display:none;
         visibility:hidden;
     }
+    
 }
 
 @media (max-width:500px){
