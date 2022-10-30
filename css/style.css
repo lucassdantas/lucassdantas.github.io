@@ -57,7 +57,9 @@ main section{
     position:fixed;
     width:16%;    
 }
-
+.container_left{
+    padding-left:15%;
+}
 
 @media (max-width:1024px){
     /*tiro o padrao do materialize*/
@@ -72,9 +74,6 @@ main section{
     }
     .linha div{
         width:100%;
-    }
-    .logo{
-        width:55px;
     }
     .btn-large{
         width:100%;
@@ -94,7 +93,9 @@ main section{
         display:none;
         visibility:hidden;
     }
-    
+    .container{
+     width:95%;   
+    }
 }
 
 @media (max-width:500px){
