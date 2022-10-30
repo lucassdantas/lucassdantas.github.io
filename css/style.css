@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
- 
 }
+
 small{
     font-weight:bold;
 }
@@ -30,7 +30,32 @@ main section{
     width:100%;
 }
 .logo{
-    width:70px;
+    width:100%;
+}
+.vertical{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    height:100%;
+    width:100%;
+}
+
+/*Removo o padding da tag A dentro das abas verticais*/
+.vertical li a{
+    margin:0;
+    padding:0!important;
+}
+.vertical li a:focus{
+    padding:0 5px!important;
+    transition:0.5s;
+}
+.no_margin{
+    margin:0;
+    padding:0;
+}
+.fixed{
+    
+    width:100%;
 }
 
 @media (max-width:1024px){
