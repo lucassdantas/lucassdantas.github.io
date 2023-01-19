@@ -5,10 +5,10 @@ html{
 small{
     font-weight:bold;
 }
-a:focus, .active:focus{
+/*a:focus, .active:focus{
     background-color:rgba(119, 194, 255, 0.1)!important;
 
-}
+}*/
 .indicator{
     background-color: #2546ff!important;
 }
