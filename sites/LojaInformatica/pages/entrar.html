@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="shortcut icon" href="../img/logo_icone.png" type="image/x-icon">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!--Google Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel='stylesheet' href='./style.css'>
+</head>
+<body data-bs-theme="dark">
+<header class="bg-dark">
+  <nav class="navbar navbar-expand-lg container pt-3 pb-3">
+    <div class="container-fluid">
+      <a href='index.php'><img class="navbar-brand header-logo" src="../img/logo.png" alt='logo'></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="pages/home.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/local.php">Local</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://api.whatsapp.com/send/?phone=5521999999999&text&type=phone_number&app_absent=0" target='_blank'>Fale Conosco</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/tabela.php"><i class="bi bi-person-circle"></i>
+              Tabela</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php"><i class="bi bi-person-circle"></i>
+              Início</a>
+          </li>
+        </ul>
+        <a class="nav-link btn btnL bgPurple text-white" href="pages/entrar.php"><span class="material-icons">
+          account_circle
+          </span> Entrar</a>
+      </div>
+    </div>
+  </nav>
+</header>   
+<section class='p-4'>
+    <h1>Faça seu Login</h1>
+    <form method='post' action='assets/isLoged.php'>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email </label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <small class='mb-2'>Qualquer login e senha, mesmo vazio, será bem sucedido.</small>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Lembrar Login</label>
+        </div>
+        <button type="submit" name='submit' class="btn bgPurple">Enviar</button>
+    </form>
+</section>
+
+<footer id='rodape' class='text-center d-flex flex-column align-items-center pt-4 pb-4 bg-black'>
+    <ul class='d-flex flex-wrap justify-content-center'>
+        <li>Contato: <a href='https://api.whatsapp.com/send/?phone=5521999999999&text&type=phone_number&app_absent=0'  target='_blank'>(21) 99999-9999</a></li>
+        <li>Endereço: Norte Shopping</li>
+    </ul>
+    <p>Desenvolvido por <a href='https://www.linkedin.com/in/lucas-de-sousa-dantas/' target='_blank'> Lucas Dantas</a></p>
+</footer>
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+"></script>
+</body>
+</html>
