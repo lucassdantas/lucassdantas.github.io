@@ -1,3 +1,6 @@
+section{
+    min-height:80vh;
+}
 #principal{
     background-image: url("https://cdn.greatsoftwares.com.br/arquivos/paginas_editor/10580-192bb591f7d989b538f87b8cb98fdcb6.webp");
     background-repeat:no-repeat;
