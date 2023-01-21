@@ -61,10 +61,11 @@ main section{
     padding-left:15%;
 }
 
-#projetos .btn{
-    width:100%;
-    margin: 5px 0;
-    text-align:left;
+#project-cards .cards{
+    height:100%;
+}
+.pt4{
+    padding-top:4%;
 }
 @media (max-width:1024px){
     /*tiro o padrao do materialize*/
