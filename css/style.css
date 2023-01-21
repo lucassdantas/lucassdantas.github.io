@@ -61,6 +61,14 @@ main section{
     padding-left:15%;
 }
 
+#projetos .col{
+    width:100%;
+}
+#projetos .btn{
+    width:100%;
+    margin: 5px 0;
+    text-align:left;
+}
 @media (max-width:1024px){
     /*tiro o padrao do materialize*/
     .tabs .tab {
