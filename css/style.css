@@ -5,6 +5,7 @@ html{
 small{
     font-weight:bold;
 }
+
 /*a:focus, .active:focus{
     background-color:rgba(119, 194, 255, 0.1)!important;
 
@@ -66,6 +67,11 @@ main section{
 }
 .pt4{
     padding-top:4%;
+}
+footer{
+    text-align:center;
+    padding:5px 0;
+    margin-top:50px;
 }
 @media (max-width:1024px){
     /*tiro o padrao do materialize*/
