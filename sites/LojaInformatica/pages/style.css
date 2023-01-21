@@ -47,8 +47,8 @@ img{
 }
 
 #jogo-video{
-    width:80%;
-    height:60%;
+    width:450px;
+    height:220px;
 }
 footer li{
     margin:5px;
@@ -79,6 +79,14 @@ footer li{
     #index-section{
         height:fit-content;
         padding: 25% 0 0em 0!important;
+    }
+    #jogo-video{
+        width:80%;
+        height:60%;
+    }
+    .modal{
+        display:flex;
+        justify-content:center;
     }
 }
 @media (max-width:617px){
