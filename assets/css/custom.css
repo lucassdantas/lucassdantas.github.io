@@ -20,7 +20,12 @@
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    align-items:space-between;
+  }
+  .card-body{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:70%;
   }
   .card-image img{
     width:100%;
@@ -33,7 +38,7 @@
   
   .card-content {
     margin-bottom: 20px;
-  }
+}
 
   .card-content p{
     font-size:12px;
