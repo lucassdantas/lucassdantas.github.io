@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim escolar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Boletim escolar</h1>
+    <h2>Calcule sua média</h2>
+    <div class="inputArea">
+        <div class="colInput">
+         <label for="bimestres">N° de bimestres:</label>
+            <select name="bimestres" id="bimestres" class="input">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <div class="inputArea" id="noteSelector">
+           
+        </div>
+        <a class="button" id="calcular">Calcular</a>
+    </div>
+    <p>Média: <span id='resultArea'></span></p>
+    <p id="situacao"></p>
+
+    <script src="./index.js"></script>
+</body>
+</html>

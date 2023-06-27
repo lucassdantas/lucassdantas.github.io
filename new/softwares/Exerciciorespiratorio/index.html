@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respiração Lírica APP</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Canto Lírico<br>APP</h1>
+    </header>
+    <main>
+        <div id="DivExercSelector">
+            <label id="SelectExercTitle">Selecione o exercício</label>
+            <select name="SeletorExercicio" id="SelectExerc" class="ValueInput">
+                <option value="Padrão">Padrão</option>
+                <option value="1">Exercício 1</option>
+                <!--<option value="Custom">Customizado</option>-->
+            </select>           
+        </div>
+        <div id="DivCustom" class="Custom CustomHidden">
+            <div id="DivCustomInsp" class="Custom CustomDiv CustomHidden">
+                <label class="Custom CustomLabel CustomHidden">Inspiração</label>
+                <br>
+                <input id="InspValue" type="number" class="Custom ValueInput CustomHidden">    
+            </div>
+            <div id="DivCustomPause" class="Custom CustomDiv CustomHidden">
+                <label class="Custom CustomLabel CustomHidden">Pausa</label>
+                <br>
+                <input id="PauseValue"type="number" class="Custom ValueInput CustomHidden">    
+            </div> 
+            <div id="DivCustomExp" class="Custom CustomDiv CustomHidden">
+                <label class="Custom CustomLabel CustomHidden">Expirção</label>
+                <br>
+                <input id="ExpValue" type="number" class="Custom ValueInput CustomHidden">    
+            </div>  
+            <div id="RepeatValue" class="Custom CustomDiv CustomHidden">
+                <label id="SelectRepeatTitle" class="Custom CustomHidden">Selecione o número de repetições</label>
+                <br>
+                <input type="number" id="RepeatNumber" class="Custom ValueInput CustomHidden">
+            </div>  
+        </div>
+        <section id="CutDownSection" class="cutdown">
+            <div id="InspiracaoDiv" class="cutdown">
+                <h2 class="cutdown-title">Inspire por:</h2>
+                <p id="InspText" class="cutdown text">0 S</p>
+            </div>
+
+            <div id="PausaDiv" class="cutdown">
+                <h2 class="cutdown-title">Segure por: </h2>
+                <p id="PauseText" class="cutdown text">0 S</p>
+            </div>
+
+            <div id="ExpiracaoDiv" class="cutdown">
+                <h2 class="cutdown-title">Expire por:</h2>
+                <p id="ExpText"  class="cutdown text">0 S</p>
+            </div>
+        </section>
+        <div id="DivButton">
+            <button id="ButtonInit">Iniciar</button>
+            <button id="ButtonStop" class="hidden">Parar</button>
+        </div>
+    </main>
+    <footer id="Footer">
+        <h3 id="DeoGratias">Graças a Deus</h3>
+        <br>
+        <h4 id="CopyRight">Desenvolvido por <a href="https://github.com/lucassdantas/Exercicio-respiratorio-app/tree/main/new" target="_blank" rel="author">Lucas Dantas</a></h4>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

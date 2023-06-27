@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/justica.png" type="image/x-icon">
+</head>
+<body>
+    <main class="body">
+        <div class="screen-area">
+            <div class="screen">
+                <img class='screen-logo' src="./img/justica.png" alt="Logo justiça">
+                <br>
+                <p>JUSTIÇA ELEITORAL</p>
+            </div>
+            <div class="error-area">
+                <br>
+            </div>
+            <div class="seeCandidatesArea">
+                <input type="button" value="Ver Candidatos" id='seeCandidatesBtn' class="white-btn control-btn">
+            </div>
+        </div>
+        <div class="keyboard-area">
+            <div class="title-area">
+                <img class='eleitoral-img' src="./img/justica.png" alt="Logo justiça">
+                <h1 class="title">JUSTIÇA ELEITORAL</h1>
+            </div>
+            <div class="number-area">
+                <input type="button" value="1" class="number-btn">
+                <input type="button" value="2" class="number-btn">
+                <input type="button" value="3" class="number-btn">
+                <input type="button" value="4" class="number-btn">
+                <input type="button" value="5" class="number-btn">
+                <input type="button" value="6" class="number-btn">
+                <input type="button" value="7" class="number-btn">
+                <input type="button" value="8" class="number-btn">
+                <input type="button" value="9" class="number-btn">
+                <input type="button" value="0" class="number-btn">
+                <div class="controls"> </div>
+            </div>
+        </div>
+    </main>
+    <div id="popUpBackground" class="hidden">
+        <div id="popUp" class="">
+            <div class="closeButtonDiv">
+                <span id='closePopUpBtn'>X</span>
+            </div>
+            <div id="votationContent">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Com a graça de Deus,</p>
+        <p>Desenvolvido por <a href='linkedin.com/in/lucas-de-sousa-dantas/' target='_blank' rel='external'>Lucas Dantas</a></p>
+    </footer>
+    <script defer type='module'>
+        let i = 0
+        import {App} from './src/App.js'
+        App.start(i)
+    </script>
+</body>
+</html>
