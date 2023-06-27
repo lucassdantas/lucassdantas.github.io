@@ -4,10 +4,56 @@
 .ac{
     align-items:center;
 }
-.col{
-
+.col25{
+    width:25%;
 }
 
 .contentLogo{
     width:50%;
 }
+
+
+  
+.card {
+    background-color: var(--sidebar-color);
+    ;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  .card-image img{
+    width:100%;
+  }
+  .card-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .card-content {
+    margin-bottom: 20px;
+  }
+
+  .card-content p{
+    font-size:12px;
+  }
+  .card-content small{
+    font-size:10px;
+  }
+
+  .card-action {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .card-action a {
+    color: #26a69a;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size:16px;
+  }
+  
+  .card-action a:hover {
+    text-decoration: underline;
+  }
