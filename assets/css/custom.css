@@ -1,0 +1,13 @@
+.row{
+    display:flex;
+}
+.ac{
+    align-items:center;
+}
+.col{
+
+}
+
+.contentLogo{
+    width:50%;
+}
