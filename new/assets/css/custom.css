@@ -73,4 +73,7 @@
     text-decoration: underline;
   }
 
-  
+  .hidden{
+    display:none;
+    visibility:hidden;
+  }
