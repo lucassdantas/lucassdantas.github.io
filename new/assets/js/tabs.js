@@ -1,4 +1,4 @@
-function choseTable(evt, sectionName) {
+function chooseTable(evt, sectionName) {
     let i, tabcontent, tablinks;
     console.log('oi')
     tabcontent = document.getElementsByClassName("tabcontent");
