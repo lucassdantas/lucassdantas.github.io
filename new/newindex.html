@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/sessions.css">
     <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/tabs.css">
     
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -47,35 +48,35 @@
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bx-home-alt icon' ></i>
-                            <span class="text nav-text">Experiências</span>
+                            <span class="text nav-text tablinks" onclick="openCity(event, 'London')">Experiências</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bx-bar-chart-alt-2 icon' ></i>
-                            <span class="text nav-text">Projetos</span>
+                            <span class="text nav-text tablinks" onclick="openCity(event, 'London')">Projetos</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bx-bell icon'></i>
-                            <span class="text nav-text">Sobre</span>
+                            <span class="text nav-text tablinks" onclick="openCity(event, 'London')">Sobre</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bx-pie-chart-alt icon' ></i>
-                            <span class="text nav-text">Educação</span>
+                            <span class="text nav-text tablinks" onclick="openCity(event, 'London')">Educação</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bx-heart icon' ></i>
-                            <span class="text nav-text">Contatos</span>
+                            <span class="text nav-text tablinks" onclick="openCity(event, 'London')">Contatos</span>
                         </a>
                     </li>
 
@@ -101,7 +102,7 @@
 
     </nav>
     <main class="home">
-        <section class="row ac">
+        <section class="row ac tabcontent">
             <div class="text col">
                 <h3>Lucas de Sousa Dantas</h3>
                 <p>Trabalho como desenvolvedor web há mais de um ano e almejo me torna desenvolvedor Full-Stack</p>
@@ -109,7 +110,7 @@
             <div class="text col"><img class="contentLogo" src="./Images/LogoLucasDantas.png" alt="minha logo">
         </section>
             <hr>
-        <section class="text project">
+        <section class="text tabcontent project">
             <h2>Projetos</h2>
             <div class='row wrap'>
                 <div class="col25 col">
@@ -204,7 +205,7 @@
                 </div>
             </div>
         </section>
-        <section class='experiences text'>
+        <section class='experiences tabcontent text'>
                 <h2 class="blue-text">Experiências</h2>
                 <h3 class="subtitle">Desenvolvedor Web</h3>
                 <small><a href="https://rdmarketing.com.br" target="_blank">R&D Marketing</a></small>
@@ -235,7 +236,7 @@
                     <li>Pequenos reparos em computadores</li>
                 </ul>
         </section>
-        <section class="container" name="escolaridade">
+        <section class="container tabcontent" name="escolaridade">
             <h2 class="blue-text">Escolaridade</h2>
             <div class="row center-align">
                 <div class="col s6 left-align">
@@ -251,7 +252,7 @@
                 </div>
             </div>
         </section>
-        <section class="container" name="contato">
+        <section class="container tabcontent" name="contato">
             <div class="row">
                 <div class="col s6">
                     <h2 class="subtitle blue-text">Contato</h2>
@@ -275,6 +276,7 @@
 
 
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/tabs.js"></script>
 
 </body>
 </html>
