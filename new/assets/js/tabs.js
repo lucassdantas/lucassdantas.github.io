@@ -1,6 +1,5 @@
 function chooseTable(evt, sectionName) {
     let i, tabcontent, tablinks;
-    console.log('oi')
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
@@ -15,3 +14,21 @@ function chooseTable(evt, sectionName) {
     document.getElementById(sectionName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  let 
+  tabContents = document.querySelectorAll('.tabcotent'),
+  hideTabContent = tabId => {
+    tabContents.forEach(tab => {
+      if(tab.id = tabId){
+        
+      }
+    })
+  },
+  menus = document.querySelectorAll(".nav-link")
+  
+  
+  menus.forEach(menu => {
+    menu.addEventListener('click', () => {
+      hideTabContent(tab)
+    })
+  })
