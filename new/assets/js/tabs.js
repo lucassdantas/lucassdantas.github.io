@@ -16,9 +16,10 @@ function chooseTable(evt, sectionName) {
   }
 
   let 
-  tabContents = document.querySelectorAll('.tabcotent'),
-  hideTabContent = tabId => {
+  tabContents = document.querySelectorAll('.tabcontent'),
+  hideTabContent = e => {
     tabContents.forEach(tab => {
+      e.target.classList.add('hidden')
       if(tab.id = tabId){
         
       }
@@ -29,6 +30,6 @@ function chooseTable(evt, sectionName) {
   
   menus.forEach(menu => {
     menu.addEventListener('click', () => {
-      hideTabContent(tab)
+      hideTabContent(e)
     })
   })
