@@ -1,3 +1,6 @@
+p, h1, h2, h3, h4, h5, h6, label, div, section{
+  color:#F6F5FF;
+}
 .row{
     display:flex;
     justify-content:flex-start;
@@ -73,4 +76,7 @@
     text-decoration: underline;
   }
 
-  
+  .hidden{
+    display:none;
+    visibility:hidden;
+  }
