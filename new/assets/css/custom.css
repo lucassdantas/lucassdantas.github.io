@@ -1,6 +1,11 @@
 p, h1, h2, h3, h4, h5, h6, label, div, section{
   color:#F6F5FF;
 }
+a{
+  text-decoration:none;
+  color:inherit;
+  font-weight:700;
+}
 .row{
     display:flex;
     justify-content:flex-start;
@@ -79,4 +84,9 @@ p, h1, h2, h3, h4, h5, h6, label, div, section{
   .hidden{
     display:none;
     visibility:hidden;
+  }
+
+  #about{
+    padding-top:0;
+    padding-bottom:0;
   }
