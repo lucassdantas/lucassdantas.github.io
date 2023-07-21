@@ -21,7 +21,9 @@ a{
 .col25{
     width:24%;
 }
-
+.col50{
+  width:50%;
+}
 .contentLogo{
     width:50%;
 }
@@ -89,4 +91,23 @@ a{
   #about{
     padding-top:0;
     padding-bottom:0;
+  }
+
+  .mt15{
+    margin-top:15px;
+  }
+
+  .rounded{
+    border-radius:25%;
+  }
+
+  .smallImg{
+    width:450px;
+    height:450px;
+    object-fit:cover;
+  }
+
+  .ac{
+    justify-content:center;
+    align-items:center;
   }
