@@ -7,7 +7,7 @@
 /* Estilos para as sessões */
 /* Exemplo de estilos para as sessões */
 .project .col {
-    margin: 15px;
+    margin: 0 15px 15px 0;
     display: flex;
     justify-content: center;
   }

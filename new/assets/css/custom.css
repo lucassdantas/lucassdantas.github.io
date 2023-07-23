@@ -17,7 +17,9 @@ a{
 .ac{
     align-items:center;
 }
-
+.col23{
+  width:23%;
+}
 .col25{
     width:24%;
 }
@@ -73,7 +75,6 @@ a{
   
   .card-action a {
     color: #8e44ad;
-    margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size:16px;
@@ -96,6 +97,10 @@ a{
   .mt15{
     margin-top:15px;
   }
+  .p15{
+    padding-left:15px;
+    padding-right:15px;
+  }
 
   .rounded{
     border-radius:25%;
@@ -106,8 +111,17 @@ a{
     height:450px;
     object-fit:cover;
   }
-
-  .ac{
+  .jc{
     justify-content:center;
+  }
+  .ac{
     align-items:center;
+  }
+  .sb{
+    justify-content: space-between;
+  }
+
+  #experience .card{
+    max-width:100%;
+    width:100%;
   }
