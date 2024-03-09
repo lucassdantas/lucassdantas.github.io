@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página Web</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: #343a40;
+    }
+    .footer {
+      background-color: #343a40;
+      color: #f8f9fa;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Minha Página Web</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container mt-5">
+    <section>
+      <h2>Receita de Bolo de Chocolate</h2>
+      <p>Ingredientes:</p>
+      <ul>
+        <li>3 ovos</li>
+        <li>1 xícara de açúcar</li>
+        <li>1 xícara de farinha de trigo</li>
+        <li>1/2 xícara de óleo</li>
+        <li>1/2 xícara de chocolate em pó</li>
+        <li>1 colher (sopa) de fermento em pó</li>
+      </ul>
+      <p>Modo de preparo:</p>
+      <ol>
+        <li>Bata no liquidificador os ovos, o açúcar, o óleo e o chocolate em pó.</li>
+        <li>Acrescente a farinha de trigo e continue batendo.</li>
+        <li>Por último, adicione o fermento em pó e misture delicadamente com uma colher.</li>
+        <li>Despeje a massa em uma forma untada e leve ao forno preaquecido a 180°C por aproximadamente 40 minutos.</li>
+        <li>Retire do forno, deixe esfriar e sirva.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Receita de Salada Caesar</h2>
+      <p>Ingredientes:</p>
+      <ul>
+        <li>Alface romana</li>
+        <li>Croutons</li>
+        <li>Queijo parmesão ralado</li>
+        <li>Molho Caesar</li>
+      </ul>
+      <p>Modo de preparo:</p>
+      <ol>
+        <li>Lave e rasgue as folhas de alface romana.</li>
+        <li>Adicione os croutons e o queijo parmesão ralado.</li>
+        <li>Misture tudo com o molho Caesar.</li>
+        <li>Sirva em seguida.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Receita de Suco de Abacaxi com Hortelã</h2>
+      <p>Ingredientes:</p>
+      <ul>
+        <li>1 abacaxi médio</li>
+        <li>Folhas de hortelã</li>
+        <li>Água</li>
+        <li>Açúcar a gosto</li>
+      </ul>
+      <p>Modo de preparo:</p>
+      <ol>
+        <li>Descasque o abacaxi e corte em pedaços.</li>
+        <li>Bata no liquidificador o abacaxi com algumas folhas de hortelã e um pouco de água.</li>
+        <li>Adicione açúcar a gosto e continue batendo até obter uma mistura homogênea.</li>
+        <li>Sirva com gelo e algumas folhas de hortelã para decorar.</li>
+      </ol>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Minha Página Web. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
