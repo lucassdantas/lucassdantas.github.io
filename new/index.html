@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+  <!-- Sidebar from CodinLab | www.codinglabweb.com -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/logo_icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/sessions.css">
+    <link rel="stylesheet" href="./assets/css/tabs.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--<title>Dashboard Sidebar Menu</title>--> 
+</head>
+<body class="dark">
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./images/LogoLucasDantas.png" alt="Logo LD">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Lucas Dantas</span>
+                    <span class="profession">Web developer</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Pesquisar">
+                </li>
+
+                <ul class="menu-links">
+                    <div class='tablinks'>
+                        <li class="nav-link tablinks ">
+                            <a href="#">
+                                <i class='bx bx-home-alt icon' ></i>
+                                <span class="text nav-text " onclick="chooseTable(event, 'experience')">Experiências</span>
+                            </a>
+                        </li>
+                    </div>
+                    
+
+                    <li class="nav-link tablinks">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text " onclick="chooseTable(event, 'projects')">Projetos</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link tablinks">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text " onclick="chooseTable(event, 'about')">Sobre</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link tablinks">
+                        <a href="#" class='tablinks'>
+                            <i class='bx bx-pie-chart-alt icon tablinks' ></i>
+                            <span class="text nav-text tablinks" onclick="chooseTable(event, 'education')">Educação</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link tablinks">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text " onclick="chooseTable(event, 'contacts')">Contatos</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+    <main class="home">
+        <section id="about" class="row ac sb tabcontent">
+            <div class="col">
+                <h3>Lucas de Sousa Dantas</h3>
+                <p>Trabalho como desenvolvedor web há mais de um ano e almejo me torna desenvolvedor Full-Stack</p>
+            </div>
+            <div class="col"><img class="contentLogo" src="./Images/LogoLucasDantas.png" alt="minha logo">
+        </section>
+            <hr>
+        <section id='projects' class="tabcontent project">
+            <h2>Projetos</h2>
+            <div class='row wrap'>
+                <div class="col23 col">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./Images/projects/urna-eletronica.PNG" alt="print da Urna eletrônica que desenvolvi">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <h3 class="card-title">Urna Eletrônica</h3>
+                                <p >Progrma que simula urna eletrônica, exibe resultado e possibilita novas ou finalização das votações.</p>
+                                <small>Desenvolvido por mim</small>
+                            </div>
+                            <div class="card-action">
+                                <a href="./softwares/Urna/index.html" class="waves-effect waves-teal btn-small blue" target="_blank">Acessar</a>
+                                <small class="date">Terminado em: 02/2023</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col23 col">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./Images/projects/dev-finance.jpg" alt="print do programa que simula transações">
+                        </div>
+                        <div class='card-body'>
+                            <div class="card-content">
+                                <h3 class="card-title">Dev Finance</h3>
+                                <p>Esse programa simula transações bancárias, salvando as informações mesmo após a atualização da página</p>
+                                <small>Meu estudo do Projeto desenvolvido por Mayk Brito</small>
+                            </div>
+                            <div class="card-action">
+                                <a href="./softwares/Sistemabancario/index.html" class="waves-effect waves-teal btn-small blue" target="_blank">Acessar</a>
+                                <small class="date">Terminado em: 01/2022</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col23 col">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./Images/projects/exercicio-respiratorio.jpg" alt='Print do cronometro de exercício respiratório'>
+                        </div>
+                        <div class='card-body'>
+                            <div class="card-content">
+                                <h3 class="card-title">Cronômetro complexo</h3>
+                                <p>Desenvolvi com JS para auxiliar o coral em que cantava em um exercício de respiração. Melhorei minhas práticas em POO utilizando JavaScript.</p>
+                                <small>Desenvolvido por mim</small>
+                            </div>
+                            <div class="card-action">
+                                <a href="./softwares/Exerciciorespiratorio/" class="waves-effect waves-teal btn-small blue" target="_blank">Acessar</a>
+                                <small class="date">Terminado em: 06/2022</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col23 col">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./Images/projects/insta-post-reminder.jpg" alt="print do programa que substitui espaço por virgula">
+                        </div>
+                        <div class='card-body'>
+                            <div class="card-content">
+                                <h3 class="card-title">Insta Post Reminder</h3>
+                                <p>Programa que dispara notificações periodicamente para recordar momento de postar no Instagram. </p>
+                                <small>Estudo do Projeto desenvolvido por Mayk Brito</small>
+                            </div>
+                            <div class="card-action">
+                                <a href="./softwares/PostReminder/" class="waves-effect waves-teal btn-small blue" target="_blank">Acessar</a>
+                                <small class="date">Terminado em: 12/2022</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col23 col">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./Images/projects/insta-post-reminder.jpg" alt="print do programa que substitui espaço por virgula">
+                        </div>
+                        <div class='card-body'>
+                            <div class="card-content">
+                                <h3 class="card-title">Insta Post Reminder</h3>
+                                <p>Programa que dispara notificações periodicamente para recordar momento de postar no Instagram. </p>
+                                <small>Estudo do Projeto desenvolvido por Mayk Brito</small>
+                            </div>
+                            <div class="card-action">
+                                <a href="./softwares/PostReminder/" class="waves-effect waves-teal btn-small blue" target="_blank">Acessar</a>
+                                <small class="date">Terminado em: 12/2022</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id='experience' class='experiences tabcontent'>
+                <h2 class="blue-text">Experiências</h2>
+                <div class='card'>
+                    <h3 class="subtitle">Desenvolvedor Web</h3>
+                    <small><a href="https://rdmarketing.com.br" target="_blank">R&D Marketing</a></small>
+                    <small>06/2022 - Atualmente</small>
+                    <ul class='p15'>
+                        <li>Fiz o desenvolvimento e manutenção de diversos sites utilizando <b>WordPress</b> e <b>Elementor</b> como construtor.</li>
+                        <li>Desenvolvi um sistema de cadastro para arquitetos com nível de usuário usando  <b>PHP, HTML, CSS</b> e <b>JS</b></li>
+                        <li>Configurei reCaptcha v3 e verifiquei problemas no envio de e-mails com <b>PHP</b> e <b>PHPMailer.</b></li>
+                        <li>Utilizei <b>JavaScript</b> para superar as limitações do <b>WordPress</b> e contornar um bug do CF7 nos pop ups do Elementor.</li>
+                        <li>Fiz a <b>migração</b> de diversos sites e <b>redirecionamento</b> de DNS.</li>
+                        <li>Desenvolvi em conjunto com equipes de redatores, atendimentos, estratégicos.</li>
+                        <li>Fiz alterações em sites hospedados na Nuvem Shop, Loja integrada e Wix.</li>
+                        <li>Utilizei o sistema operand como gerenciador de tarefas e como meio de comunicação com as equipes.</li>
+                    </ul>
+                </div>
+                <div class='card mt15'>
+                    <h3 class="subtitle">Desenvolvedor WordPress</h3>
+                    <small class="blue-text">Click Internet</small>
+                    <small>12/2021 - 06/06/2022</small>
+                    <ul class='p15'>
+                        <li>Como estagiário, fiz o desenvolvimento, design responsivo, manutenção, otimização e exportação de
+                            <strong>landing pages</strong> e <strong>E-commerce</strong> com <strong>WordPress.</strong>
+                        </li>
+                        <li>Construi imagens e cartões digitais com Canva.</li>
+                        <li>Atendi e dei e suporte a clientes por WhatsApp e videochamada.</li>
+                    </ul>
+                </div>
+                <div class='card mt15'>
+                    <h3 class="subtitle">Autônomo</h3>
+                    <small>2017 - atualmente</small>
+                    <ul class='p15'>
+                        <li>Serviços de Design gráfico (panfletos, cartões de visita)</li>
+                        <li>Pequenos reparos em computadores</li>
+                    </ul>
+                </div>
+                
+                
+        </section>
+        <section id='education' class="container tabcontent " name="escolaridade">
+            <h2 class="blue-text">Escolaridade</h2>
+            <div class="row center-align">
+                <div class="col s6 left-align">
+                    <p><b>Curso técnico em informática (cursando)</b></p>
+                    <p>Instituição: Senac</p>
+                    <p>Duração: 08/2022 - 12/2023</p>
+                    <p class='mt15'><b>Ensino médio</b></p>
+                    <p>Instituição: Olinto da Gama Botelho</p>
+                    <p>Concluido em: 12/2019</p>
+                </div>
+                <div class="col s6 left-align">
+                    
+                </div>
+            </div>
+        </section>
+        <section id='contact' class="container tabcontent " name="contato">
+            <div class="row ac">
+                <div class="col col50 s6">
+                    <h2 class="subtitle blue-text">Contato</h2>
+                    <p>
+                        <a href="mailto:lucasdesousadantas@gmail.com">lucasdesousadantas@gmail.com</a>
+                    </p>
+                    <p>
+                        <a href="linkedin.com/in/lucas-de-sousa-dantas/" target='_blank'>Linkedin</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/lucassdantas" target='_blank'>GitHub</a>
+                    </p>
+                    <h2 class="subtitle blue-text mt15">Endereço:</h2>
+                    <p>Pilares, Rio de Janeiro - RJ</p>
+                </div>
+                <div class="col col50 s6 mt15">
+                    <img src="/new/Images/lucas-dantas-foto.jpg" alt="Minha foto" class="rounded smallImg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/tabs.js"></script>
+
+</body>
+</html>
+
+<!--
+
+    #runnei pot
+    #roadsec
+    #distribuicao de carga
+    #pino para não fechar eletricidade estática
+    #https://dontpad.com/senacmadnoite
+    pathfinder.vmware.com/v3/activity/virtualization_101
+
+-->

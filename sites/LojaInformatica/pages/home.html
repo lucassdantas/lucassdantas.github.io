@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="../img/logo_icone.png" type="image/x-icon">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!--Google Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel='stylesheet' href='./style.css'>
+</head>
+<body data-bs-theme="dark">
+  <header class="bg-dark">
+    <nav class="navbar navbar-expand-lg container pt-3 pb-3">
+      <div class="container-fluid">
+        <a href='../index.html'><img class="navbar-brand header-logo" src="../img/logo.png" alt='logo'></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./local.html">Local</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://api.whatsapp.com/send/?phone=5521999999999&text&type=phone_number&app_absent=0" target='_blank'>Fale Conosco</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./tabela.html"><i class="bi bi-person-circle"></i>
+                Tabela</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"><i class="bi bi-person-circle"></i>
+                Início</a>
+            </li>
+          </ul>
+          <a class="nav-link btn btnL bgPurple text-white" href="./entrar.html"><span class="material-icons">
+            account_circle
+            </span> Entrar</a>
+        </div>
+      </div>
+    </nav>
+  </header>   
+  <main class='home'> 
+    <section id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/banners/jogosemuitomais.jpg" class="d-block w-100" alt="primeiro-slide">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/banners/consoles-e-games.jpg" class="d-block w-100" alt="segundo-slide">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/banners/melhores-jogos.jpg" class="d-block w-100" alt="terceiro-slide">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <section class='container text-center pt-4 pb-4'>
+      <h2 class='mb-4'>Produtos</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../img/jogos/battlefield-2042.jpg" class="card-img-top" alt="imagem battlefield">
+            <div class="card-body">
+              <h5 class="card-title">Computador 01</h5>
+              <p class="card-text">Compre nosso computador agora</p>
+              <a class='btn bgPurple' href='https://api.whatsapp.com/send/?phone=5521999999999&text&type=phone_number&app_absent=0' target='_blank'>Saiba mais</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/jogos/dyinglight-2.jpg" class="card-img-top" alt="imagem dying light">
+            <div class="card-body">
+              <h5 class="card-title">Computador 01</h5>
+              <p class="card-text">Compre nosso computador agora</p>
+              <a class='btn bgPurple' href='https://api.whatsapp.com/send/?phone=5521999999999&text&type=phone_number&app_absent=0' target='_blank'>Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/jogos/god-of-war.jpg" class="card-img-top" alt="imagem god of war">
+            <div class="card-body">
+              <h5 class="card-title">Computador 01</h5>
+              <p class="card-text">Compre nosso computador agora</p>
+              <a class='btn bgPurple' href='https://api.whatsapp.com/send/?phone=5521999999999&text&type=phone_number&app_absent=0' target='_blank'>Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id='video-section' class='container text-center pt-4 pb-4 d-flex flex-column align-items-center'>
+      <img id='img-lancamento' class='w-75 mb-4' src="../img/insurgency-sandstorm.jpg">
+      <h2 class='mb-4'>Novo lançamento</h2>
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn bgPurple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Assista ao vídeo
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Lançamento - Insurgency Sandstorm</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <iframe id='jogo-video' src="https://www.youtube.com/embed/ZeedrJP180U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <a href='https://api.whatsapp.com/send/?phone=5521999999999&text&type=phone_number&app_absent=0' target='_blank' class="btn bgPurple">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id='rodape' class='text-center d-flex flex-column align-items-center pt-4 pb-4 bg-black'>
+      <ul class='d-flex flex-wrap justify-content-center'>
+          <li>Este site é destinado a aprimoramento pessoal do desenvolvedor. Suas compras e contatos não são validos</li>
+          <li>Contato: <a href='https://api.whatsapp.com/send/?phone=5521999999999&text&type=phone_number&app_absent=0'  target='_blank'>(21) 99999-9999</a></li>
+          <li>Endereço: Norte Shopping</li>
+      </ul>
+      <p>Desenvolvido por <a href='https://www.linkedin.com/in/lucas-de-sousa-dantas/' target='_blank'> Lucas Dantas</a></p>
+  </footer>
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+"></script>
+</body>
+</html>

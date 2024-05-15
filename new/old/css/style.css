@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+
+small{
+    font-weight:bold;
+}
+
+/*a:focus, .active:focus{
+    background-color:rgba(119, 194, 255, 0.1)!important;
+
+}*/
+.indicator{
+    background-color: #2546ff!important;
+}
+main section{
+    display:flex;
+    flex-direction: column;
+}
+.title{
+    margin:1em 0;
+}
+.subtitle{
+    font-size:1.5rem;
+}
+.div_title{
+    text-align:center;
+    margin-bottom:50px;
+}
+.btn-large{
+    width:100%;
+}
+.logo{
+    width:80%;
+}
+.vertical{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    height:100%;
+    width:100%;
+}
+
+/*Removo o padding da tag A dentro das abas verticais*/
+.vertical li a{
+    margin:0;
+    padding:0!important;
+}
+.vertical li a:focus{
+    padding:0 5px!important;
+    transition:0.5s;
+}
+.no_margin{
+    margin:0;
+    padding:0;
+}
+.fixed{
+    position:fixed;
+    width:16%;    
+}
+.container_left{
+    padding-left:15%;
+}
+
+.card{
+    background-color: #f4faff!important;
+}
+.card-action{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+.pt4{
+    padding-top:4%;
+}
+footer{
+    text-align:center;
+    padding:5px 0;
+    margin-top:50px;
+}
+@media (max-width:1024px){
+    /*tiro o padrao do materialize*/
+    .tabs .tab {
+        -webkit-box-flex: 0; 
+        -webkit-flex-grow: 0;
+    }
+    .linha{
+        justify-content:center;
+        flex-direction:column;
+        
+    }
+    .linha div{
+        width:100%;
+    }
+    .btn-large{
+        width:100%;
+    }
+    #mobile-demo{
+        flex-direction:column;
+        text-align:left;
+    }
+    #mobile-demo li{
+        margin-left:0;
+        left:0;
+        right:0;
+        width:100%;
+        text-align:left;
+    }
+    .sidenav-overlay{
+        display:none;
+        visibility:hidden;
+    }
+    .container{
+        width:100%;
+        padding:0 10%;   
+    }
+}
+
+@media (max-width:500px){
+    .linha{
+        width:100%;
+    }
+    .btn-large{
+        width:100%;
+    }
+}
+@media (max-width:465px){
+    .btn-large{
+        font-size:0.8rem;
+        padding:0;
+
+    }
+}

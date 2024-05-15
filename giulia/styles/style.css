@@ -1,0 +1,136 @@
+.leftCol{
+    padding:1em;
+    
+    text-align:left;
+}
+.rightCol{
+    display:flex;
+}
+
+.giuliaInfoContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    
+    width:100%;
+    height:468px;
+    max-width:512px;
+    margin-bottom:64px;
+    
+    background-color:var(--light-brown);
+    border-radius:25%;
+    box-shadow: 0px 6px 32px rgba(0,0,0,0.5);
+
+
+}
+
+#giuliaImg{
+    width:250px;
+    height:250px;
+    border-radius:100%;
+    margin-bottom:32px;
+}
+.giuliaTitle{
+    margin-bottom:12px;
+}
+
+.colContentContainer {
+    margin: 20px 0;
+    text-align: left;
+    width:fit-content;
+    min-width:768px;
+}
+
+.poemTitle{
+    margin-bottom:32px;
+}
+.stanza{
+}
+.interStanza{
+    margin:48px 0;
+    max-width:768px;
+}
+
+.verse {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.verse span{
+    width:56%;
+}
+.verse span:first-child {
+    text-align:left;
+    min-width:fit-content;
+    width:46%; 
+}
+
+@media(max-width:1300px){
+    .rightCol{
+        align-items:center;
+        justify-content:center;
+        width:100%;
+    }
+    .limiter, .row, .reverse-on-mobile,{
+        max-width:100%;
+        width:100%;
+    }
+    .giuliaInfoContainer{
+        margin-top:32px;
+    }
+
+    .colContentContainer{
+        display:flex;
+        justify-content:center;
+        text-align:center;
+        width:100%;
+        min-width:100%;
+    }
+    .textContainer{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:80%;
+        border-radius:15%;
+        padding:1em 0;
+    }    
+    .poemTitle{
+        text-align:center;
+    }
+    .stanza{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:90%;
+    }
+    .verse{
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        text-align:center;
+        margin-bottom:24px;
+    }
+    .verse span:first-child{
+        width:100%;
+        text-align:center;
+    }
+    .verse span{
+        text-align:center;
+        width:100%;
+    }
+}
+
+@media(max-width:628px){
+    .colContentContainer{
+        margin:0;
+    }
+    .rightCol{
+        padding:0 12px;
+    }
+    .textContainer{
+        width:100%;
+    }
+}

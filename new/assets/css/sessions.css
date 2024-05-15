@@ -1,0 +1,14 @@
+/* .project .col{
+    margin: 15px 5px;
+    display:flex;
+    justify-content:center;
+} */
+
+/* Estilos para as sessões */
+/* Exemplo de estilos para as sessões */
+.project .col {
+    margin: 0 15px 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
