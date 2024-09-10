@@ -25,7 +25,7 @@ export const poems:Poem[] = [
       [
       'Esta luz é a Giulia, a beleza mais certa,',
       'que faz da vida mais bela, que a Jesus me conduz.'
-      ]
+      ],
     ]
   },
   {

@@ -11,9 +11,7 @@ function App() {
       <Limiter>
         <Card />
         <Carousel>
-          {poems.map((poem: Poem, i: number) => (
-            <PoemStructure title={poem.title} stanzas={poem.stanzas} key={i} />
-          ))}
+          {poems.map((poem: Poem, i: number) => <PoemStructure title={poem.title} stanzas={poem.stanzas} key={i} />)}
         </Carousel>
       </Limiter>
     </main>

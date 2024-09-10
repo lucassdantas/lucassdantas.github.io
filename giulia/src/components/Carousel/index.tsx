@@ -21,7 +21,7 @@ export const Carousel = ({ children }: CarouselProps) => {
   };
 
   return (
-    <div className="relative w-full flex flex-col items-center ">
+    <div className="relative w-full flex flex-col items-center">
       <div className="w-full flex justify-between items-center">
         <button
           onClick={handlePrev}
@@ -39,12 +39,13 @@ export const Carousel = ({ children }: CarouselProps) => {
           <FaAngleRight/>
         </button>
       </div>
+
       <div className="mt-2">
         {children.map((_, index) => (
           <span
             key={index}
             className={`inline-block h-2 w-2 rounded-full mx-1 ${
-              index === currentIndex ? 'bg-blue-500' : 'bg-gray-300'
+              index === currentIndex ? 'bg-pink-600' : 'bg-gray-300'
             }`}
           ></span>
         ))}
