@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <main className="h-screen bg-pink-400 text-black">
+    <main className="min-h-screen h-fit bg-gradient-to-br from-pink-300 to-pink-400 text-black">
       <Limiter>
         <Card />
         <Carousel>
