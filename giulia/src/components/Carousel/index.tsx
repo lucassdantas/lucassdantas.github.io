@@ -25,7 +25,7 @@ export const Carousel = ({ children }: CarouselProps) => {
       <div className="w-full flex justify-between items-center">
         <button
           onClick={handlePrev}
-          className="p-2 bg-gray-300 rounded-full hover:bg-gray-400"
+          className="p-2 bg-gray-300 rounded-full hover:bg-gray-400 transition duration-300"
         >
           <FaAngleLeft/>
         </button>
@@ -34,7 +34,7 @@ export const Carousel = ({ children }: CarouselProps) => {
         </div>
         <button
           onClick={handleNext}
-          className="p-2 bg-gray-300 rounded-full hover:bg-gray-400"
+          className="p-2 bg-gray-300 rounded-full hover:bg-gray-400 transition duration-300"
         >
           <FaAngleRight/>
         </button>
