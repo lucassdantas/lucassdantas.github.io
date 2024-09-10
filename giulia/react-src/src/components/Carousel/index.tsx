@@ -40,9 +40,9 @@ export const Carousel = ({ children }: CarouselProps) => {
         </button>
       </div>
 
-      <div className="mt-2 text-gray-800">
+      {/* <div className="mt-2 text-gray-800">
         <span>{currentIndex+1}/{children.length}</span>
-      </div>
+      </div> */}
     </div>
   );
 };
