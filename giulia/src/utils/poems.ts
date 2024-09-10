@@ -191,4 +191,26 @@ export const poems:Poem[] = [
       ]
     ]
   },
+  {
+    title: 'Que Deus abençoe nossa relação',
+    date: '25/05/2024',
+    stanzas: [
+      [
+        'Deus lhe fez pura e preciosa,',
+        'Gerou em nós uma relação amorosa,',
+        'Que o Pai abençoe e ajude nessa missão valorosa!'
+      ],
+      [
+        'Deus deu-te como um grande presente,',
+        'Ledice possuo em te receber sem mérito aparente,',
+        'Que o Filho abençoe e aumente nosso amor surgente!'
+      ],
+      [
+        'Deus lhe despertou uma paixão,',
+        'Guiou-me na mesma e depois iluminou nossa razão,',
+        'Que o Espírito Santo abençoe e una nosso coração!'
+      ]
+    ]
+  },
+  
 ]

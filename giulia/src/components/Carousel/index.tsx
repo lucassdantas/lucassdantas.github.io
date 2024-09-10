@@ -40,15 +40,8 @@ export const Carousel = ({ children }: CarouselProps) => {
         </button>
       </div>
 
-      <div className="mt-2">
-        {children.map((_, index) => (
-          <span
-            key={index}
-            className={`inline-block h-2 w-2 rounded-full mx-1 ${
-              index === currentIndex ? 'bg-pink-600' : 'bg-gray-300'
-            }`}
-          ></span>
-        ))}
+      <div className="mt-2 text-gray-800">
+        <span>{currentIndex+1}/{children.length}</span>
       </div>
     </div>
   );
