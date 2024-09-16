@@ -160,6 +160,7 @@ margin-top:0px;
     color:#969cb3;
     border-spacing:0 0.5rem;
     width:100%;
+    overflow-x:scroll;
 }
 table tr th:first-child,
 table tr td:first-child{
