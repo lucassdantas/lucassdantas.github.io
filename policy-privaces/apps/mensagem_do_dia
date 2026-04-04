@@ -1,0 +1,114 @@
+# Política de Privacidade – Mensagem do Dia
+
+Última atualização: 2026
+
+Esta Política de Privacidade descreve como o aplicativo **Mensagem do Dia** coleta, usa, armazena e protege os dados dos usuários, em conformidade com as políticas do Google Play.
+
+---
+
+## 1. Informações do Desenvolvedor
+
+Aplicativo: **Mensagem do Dia**
+Desenvolvedor: Lucas Dantas
+Contato: [seuemail@exemplo.com](mailto:seuemail@exemplo.com)
+
+---
+
+## 2. Coleta e Uso de Dados
+
+O aplicativo **não coleta dados pessoais identificáveis**, como nome, e-mail, telefone ou localização.
+
+No entanto, alguns dados podem ser coletados automaticamente por serviços de terceiros integrados ao aplicativo, incluindo:
+
+* Identificadores de publicidade (Advertising ID)
+* Informações do dispositivo (modelo, sistema operacional)
+* Dados de uso e interação com anúncios
+
+Esses dados são utilizados exclusivamente para:
+
+* Exibição de anúncios
+* Melhoria da experiência do usuário
+* Funcionamento adequado dos serviços integrados
+
+---
+
+## 3. Serviços de Terceiros
+
+O aplicativo utiliza serviços de terceiros que podem coletar dados automaticamente:
+
+* **Google AdMob** (exibição de anúncios)
+
+Esses serviços operam de acordo com suas próprias políticas de privacidade.
+Recomendamos que você consulte a política do Google:
+https://policies.google.com/privacy
+
+---
+
+## 4. Compartilhamento de Dados
+
+O aplicativo **não vende, aluga ou compartilha dados pessoais dos usuários**.
+
+Dados não pessoais podem ser processados por serviços de terceiros apenas para fins operacionais, como exibição de anúncios.
+
+---
+
+## 5. Armazenamento e Retenção de Dados
+
+O aplicativo utiliza armazenamento local no dispositivo (SharedPreferences) para:
+
+* Salvar a mensagem gerada no dia
+* Controlar a frequência de geração (uma por dia)
+
+Esses dados:
+
+* Permanecem apenas no dispositivo do usuário
+* Não são enviados para servidores externos
+* Podem ser removidos ao limpar os dados do aplicativo
+
+---
+
+## 6. Segurança dos Dados
+
+Embora o aplicativo não colete dados pessoais diretamente, adotamos práticas razoáveis para garantir a segurança das informações tratadas por serviços integrados.
+
+Os dados transmitidos por terceiros (como o Google) utilizam protocolos seguros (ex: HTTPS).
+
+---
+
+## 7. Permissões
+
+O aplicativo não solicita permissões sensíveis do dispositivo (como localização, câmera, microfone, contatos ou armazenamento externo).
+
+---
+
+## 8. Consentimento e Transparência
+
+Ao utilizar o aplicativo, o usuário concorda com esta Política de Privacidade.
+
+Os dados eventualmente coletados por terceiros (como o Google AdMob) são utilizados conforme as políticas desses serviços.
+
+---
+
+## 9. Alterações nesta Política
+
+Esta Política de Privacidade pode ser atualizada periodicamente.
+
+Recomendamos que o usuário revise esta página regularmente para se manter informado sobre eventuais mudanças.
+
+---
+
+## 10. Conformidade Legal
+
+O aplicativo busca cumprir as leis de proteção de dados aplicáveis e as políticas do Google Play, incluindo requisitos de transparência, segurança e limitação de uso de dados.
+
+---
+
+## 11. Contato
+
+Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato:
+
+Email: [seuemail@exemplo.com](mailto:seuemail@exemplo.com)
+
+---
+
+Ao utilizar o aplicativo, você declara estar ciente e de acordo com esta Política de Privacidade.
